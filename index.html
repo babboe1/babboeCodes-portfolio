@@ -76,9 +76,24 @@
 
          <!-- container for message section -->
          <section class="message-section">
-
-         </section>
-      </main>
+				<h2 class="message-section--title">
+					<label for="email-id">Let's create something together!</label>
+				</h2>
+				<!-- create form -->
+				<form action="" method="POST" class="message-section--form">
+					<input
+						type="email"
+						name="email-id"
+						placeholder="Enter your email"
+						id="email-id"
+						pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+						required
+					/>
+               <!-- submit button -->
+					<input type="submit" value="Be my friend" />
+				</form>
+			</section>
+		</main>
 
 		<!-- code for footer section -->
 		<footer id="footer">
