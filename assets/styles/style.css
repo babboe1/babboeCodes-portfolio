@@ -12,4 +12,9 @@ html {
 	padding: 0;
 }
 
+ul {
+	display: flex;
+	list-style: none;
+}
+
 
