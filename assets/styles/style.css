@@ -50,3 +50,21 @@ h2 {
 	overflow: hidden;
 }
 
+#backdrop {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 5;
+	pointer-events: none;
+	display: none;
+}
+
+#backdrop.visible {
+	display: block;
+	pointer-events: all;
+}
+
+
