@@ -40,4 +40,13 @@ h2 {
 	text-align: center;
 }
 
+.gap3 {
+	padding: 0 0 3rem;
+	text-align: center;
+}
+
+.StopScroll {
+	height: 100%;
+	overflow: hidden;
+}
 
