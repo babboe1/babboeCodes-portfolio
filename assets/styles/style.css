@@ -91,3 +91,13 @@ h2 {
 	animation: menu-slide-out 0.8s ease-out forwards;
 }
 
+.ModalList {
+	color: white;
+	display: flex;
+	font-size: 1.5rem;
+	flex-direction: column;
+	list-style: none;
+	padding: 3.5rem 0;
+	row-gap: 3rem;
+}
+
