@@ -192,4 +192,12 @@ h2 {
 	}
 }
 
+.left-in {
+	animation: left-in 1s ease forwards;
+}
+
+.right-in {
+	animation: right-in 1s ease forwards;
+}
+
 
