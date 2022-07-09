@@ -215,4 +215,12 @@ h2 {
 	max-width: 14rem;
 }
 
+.menu-pic img {
+	width: 100%;
+}
+
+.scale {
+	animation: scale 1s ease 0s forwards !important ;
+}
+
 
