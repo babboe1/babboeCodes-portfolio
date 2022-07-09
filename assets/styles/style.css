@@ -206,4 +206,13 @@ h2 {
 	align-items: center;
 }
 
+.menu-opt .img-logo {
+	display: flex;
+}
+
+.menu-pic {
+	width: 100%;
+	max-width: 14rem;
+}
+
 
