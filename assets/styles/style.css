@@ -81,3 +81,9 @@ h2 {
 	overflow-x: hidden;
 }
 
+.Modal.invisible.visible {
+	display: block;
+	animation: menu-slide-in 0.8s ease-out forwards;
+}
+
+
