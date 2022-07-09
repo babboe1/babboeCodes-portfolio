@@ -170,4 +170,14 @@ h2 {
 	animation: project-animate 2s ease forwards;
 }
 
+@keyframes left-in {
+	from {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
 
