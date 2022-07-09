@@ -166,5 +166,8 @@ h2 {
 		transform: scale(1);
 	}
 }
+.project-animate {
+	animation: project-animate 2s ease forwards;
+}
 
 
