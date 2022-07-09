@@ -223,4 +223,14 @@ h2 {
 	animation: scale 1s ease 0s forwards !important ;
 }
 
+@keyframes scale {
+	from {
+		transform: scale(100%);
+		opacity: 1;
+	}
+	to {
+		transform: scale(110%);
+		opacity: 1;
+	}
+}
 
