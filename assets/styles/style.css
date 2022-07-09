@@ -156,3 +156,15 @@ h2 {
 	animation: opacity 1s ease 1s forwards;
 }
 
+@keyframes project-animate {
+	from {
+		opacity: 0.5;
+		transform: scale(0);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+
