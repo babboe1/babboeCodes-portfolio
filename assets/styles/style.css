@@ -140,4 +140,8 @@ h2 {
 	}
 }
 
+.start-page {
+	animation: start-page 1s ease forwards;
+}
+
 
