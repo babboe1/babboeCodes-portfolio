@@ -152,4 +152,7 @@ h2 {
 		opacity: 1;
 	}
 }
+.opacity {
+	animation: opacity 1s ease 1s forwards;
+}
 
