@@ -86,4 +86,8 @@ h2 {
 	animation: menu-slide-in 0.8s ease-out forwards;
 }
 
+.Modal.invisible {
+	display: block;
+	animation: menu-slide-out 0.8s ease-out forwards;
+}
 
