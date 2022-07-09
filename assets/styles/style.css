@@ -101,3 +101,17 @@ h2 {
 	row-gap: 3rem;
 }
 
+@keyframes menu-slide-in {
+	from {
+		opacity: 0;
+		display: block;
+		height: auto;
+		width: 0;
+	}
+	to {
+		opacity: 100%;
+		height: auto;
+		width: 100%;
+	}
+}
+
