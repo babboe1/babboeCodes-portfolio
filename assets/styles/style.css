@@ -144,4 +144,12 @@ h2 {
 	animation: start-page 1s ease forwards;
 }
 
+@keyframes opacity {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
 
