@@ -200,4 +200,10 @@ h2 {
 	animation: right-in 1s ease forwards;
 }
 
+.menu-opt {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 
