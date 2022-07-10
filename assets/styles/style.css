@@ -295,4 +295,10 @@ h2 {
 	color: #ea1d5d;
 }
 
+.nav-bar__link {
+	color: #21243d;
+	line-height: 1.5rem;
+	padding: 10px;
+}
+
 
