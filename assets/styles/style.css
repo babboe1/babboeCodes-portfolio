@@ -324,3 +324,16 @@ h2 {
 	animation: start-page 1s ease forwards;
 }
 
+/* GENERAL STYLES FOR ALL SECTIONS */
+
+/* styles for hero section */
+.hero-section {
+	background: url(../images/desktop/bg-image-desktop.svg);
+	background-size: 50rem;
+	background-position: 70% 0;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+
