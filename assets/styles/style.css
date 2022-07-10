@@ -260,3 +260,10 @@ h2 {
 	animation: opacity 1s ease-in 1s forwards;
 }
 
+/* style for logo image */
+.image-logo {
+	overflow: hidden;
+	width: 100%;
+}
+
+
