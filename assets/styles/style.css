@@ -266,4 +266,9 @@ h2 {
 	width: 100%;
 }
 
+#header .image-logo__image {
+	max-width: 180px;
+	width: 100%;
+}
+
 
