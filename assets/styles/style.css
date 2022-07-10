@@ -305,4 +305,10 @@ h2 {
 	display: none;
 }
 
+/* styles fot nva menu btn */
+.menu-btn {
+	display: flex;
+	width: 5.5vw;
+}
+
 
