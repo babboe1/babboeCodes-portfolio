@@ -276,4 +276,14 @@ h2 {
 	width: 100%;
 }
 
+/* styles for nav bar */
+#nav-bar {
+	align-items: center;
+	/* border: 1px solid blue; */
+	display: flex;
+	justify-content: end;
+	max-width: 20rem;
+	width: 100%;
+}
+
 
