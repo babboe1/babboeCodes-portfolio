@@ -355,4 +355,12 @@ h2 {
 }
 
 /* styles for main heading h1 */
+.hero-section__title-text--main,
+.hero-section__title-text--sub {
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 3rem;
+	opacity: 0;
+	animation: start-page 0.5s ease 0.5s forwards;
+}
 
