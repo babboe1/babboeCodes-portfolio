@@ -271,4 +271,9 @@ h2 {
 	width: 100%;
 }
 
+.image-logo__image {
+	max-width: 300px;
+	width: 100%;
+}
+
 
