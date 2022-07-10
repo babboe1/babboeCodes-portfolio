@@ -317,4 +317,10 @@ h2 {
 	width: 100%;
 }
 
+/*  STYLES FOR MAIN SECTION */
+#main {
+	/* border: 1px solid green; */
+	padding: 0 1rem 2rem;
+	animation: start-page 1s ease forwards;
+}
 
