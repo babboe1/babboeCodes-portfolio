@@ -152,6 +152,7 @@ h2 {
 		opacity: 1;
 	}
 }
+
 .opacity {
 	animation: opacity 1s ease 1s forwards;
 }
@@ -232,5 +233,15 @@ h2 {
 		transform: scale(110%);
 		opacity: 1;
 	}
+}
+
+/* STYLES FOR HOME PAGE BODY */
+#body-content--home {
+	color: #21243d;
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin: auto;
+	max-width: 1440px;
+	scroll-behavior: smooth;
+	width: 100%;
 }
 
