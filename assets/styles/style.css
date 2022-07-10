@@ -245,3 +245,18 @@ h2 {
 	width: 100%;
 }
 
+/* STYLES FOR HEADER */
+#header {
+	/* border: 1px solid red; */
+	display: flex;
+	background-color: #21243d;
+	justify-content: space-between;
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	opacity: 0;
+	animation: opacity 1s ease-in 1s forwards;
+}
+
