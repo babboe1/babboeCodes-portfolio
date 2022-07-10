@@ -286,4 +286,9 @@ h2 {
 	width: 100%;
 }
 
+.nav-bar__list {
+	column-gap: 1.2rem;
+	display: none;
+}
+
 
