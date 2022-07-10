@@ -301,4 +301,8 @@ h2 {
 	padding: 10px;
 }
 
+.nav-bar__list--after {
+	display: none;
+}
+
 
