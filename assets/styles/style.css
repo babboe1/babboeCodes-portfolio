@@ -311,4 +311,10 @@ h2 {
 	width: 5.5vw;
 }
 
+.menu-btn img {
+	position: relative;
+	z-index: 20;
+	width: 100%;
+}
+
 
