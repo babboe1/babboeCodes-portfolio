@@ -346,4 +346,13 @@ h2 {
 	width: 100%;
 }
 
+/* styles for heros section content */
+.hero-section__title-text {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+/* styles for main heading h1 */
 
