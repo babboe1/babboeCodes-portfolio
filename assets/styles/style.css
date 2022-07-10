@@ -336,4 +336,9 @@ h2 {
 	flex-direction: column-reverse;
 }
 
+/* styles for hero image */
+.hero-image {
+	margin: 0 auto;
+}
+
 
