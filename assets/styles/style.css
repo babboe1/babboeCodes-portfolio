@@ -341,4 +341,9 @@ h2 {
 	margin: 0 auto;
 }
 
+.hero-image__image {
+	max-width: 20rem;
+	width: 100%;
+}
+
 
