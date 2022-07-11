@@ -380,4 +380,12 @@ h2 {
 	animation: start-page 1s ease 2s forwards;
 }
 
+/* hero section button style */
+.contact-btn {
+	margin: 0 auto;
+	max-width: 12rem;
+	width: 100%;
+	opacity: 0;
+	animation: start-page 1s ease 2.5s forwards;
+}
 
