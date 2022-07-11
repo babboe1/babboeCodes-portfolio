@@ -370,4 +370,14 @@ h2 {
 	animation: start-page 1s ease 1.5s forwards;
 }
 
+/* styles for hero-section paragraph */
+.hero-section__text {
+	font-size: 14px;
+	line-height: 1.5rem;
+	opacity: 0;
+	padding: 1.2rem 0;
+	text-align: center;
+	animation: start-page 1s ease 2s forwards;
+}
+
 
