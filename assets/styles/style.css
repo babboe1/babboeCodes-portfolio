@@ -409,4 +409,7 @@ h2 {
 	text-align: center;
 }
 
+.about-section__container {
+	opacity: 0;
+}
 
