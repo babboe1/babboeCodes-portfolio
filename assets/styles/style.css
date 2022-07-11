@@ -399,3 +399,8 @@ h2 {
 	text-align: center;
 }
 
+.contact-btn-link:hover {
+	cursor: pointer;
+	background-image: linear-gradient(to bottom, #b82c64, #ea1d5d);
+}
+
