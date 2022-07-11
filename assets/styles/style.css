@@ -412,4 +412,7 @@ h2 {
 .about-section__container {
 	opacity: 0;
 }
+.about-section__container.desktop {
+	display: none;
+}
 
