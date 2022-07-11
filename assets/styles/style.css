@@ -415,4 +415,12 @@ h2 {
 .about-section__container.desktop {
 	display: none;
 }
+/* style for about image */
+.about-image {
+	margin: auto;
+	max-width: 24rem;
+	width: 100%;
+	opacity: 0;
+}
+
 
