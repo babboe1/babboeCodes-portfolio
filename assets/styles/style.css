@@ -404,3 +404,9 @@ h2 {
 	background-image: linear-gradient(to bottom, #b82c64, #ea1d5d);
 }
 
+/* STYLES FOR ABOUT ME SECTION */
+.about-section {
+	text-align: center;
+}
+
+
