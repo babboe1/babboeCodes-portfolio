@@ -388,4 +388,14 @@ h2 {
 	opacity: 0;
 	animation: start-page 1s ease 2.5s forwards;
 }
+.contact-btn-link {
+	background: #ea1d5d;
+	background-image: linear-gradient(to bottom, #ea1d5d, #b82c64);
+	border-radius: 12px;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	padding: 1.5rem 0;
+	text-align: center;
+}
 
