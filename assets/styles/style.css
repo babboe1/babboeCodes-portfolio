@@ -364,3 +364,10 @@ h2 {
 	animation: start-page 0.5s ease 0.5s forwards;
 }
 
+.hero-section__title-text--sub {
+	color: #ea1d5d;
+	font-size: 1.8rem;
+	animation: start-page 1s ease 1.5s forwards;
+}
+
+
