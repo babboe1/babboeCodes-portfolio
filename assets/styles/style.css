@@ -671,3 +671,9 @@ h2 {
 	padding: 2rem 0;
 }
 
+.flip-card__text {
+	line-height: 2rem;
+	text-align: center;
+	padding: 0 0 2rem;
+	font-size: 14px;
+}
