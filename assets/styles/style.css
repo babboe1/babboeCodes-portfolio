@@ -549,3 +549,19 @@ h2 {
 	color: #fff;
 }
 
+/* style for view on github button */
+.project-section__btn-link__sub {
+	align-items: center;
+	background-color: #fff;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.16);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0.5rem;
+	max-width: 8.5rem;
+}
+
