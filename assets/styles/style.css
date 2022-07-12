@@ -665,3 +665,9 @@ h2 {
 	transform: rotateY(180deg);
 }
 
+.flip-card__title {
+	color: rgb(194, 165, 2);
+	font-size: 2rem;
+	padding: 2rem 0;
+}
+
