@@ -569,3 +569,9 @@ h2 {
 	width: 2rem;
 }
 
+/* STYLES FOR FLIP CARD COMPONENT */
+.project-section__sample {
+	opacity: 0;
+	animation-delay: 2s;
+}
+
