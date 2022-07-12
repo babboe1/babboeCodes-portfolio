@@ -542,3 +542,10 @@ h2 {
 	font-weight: bold;
 	padding: 1rem 1.5rem;
 }
+
+.project-section__btn-link:hover {
+	background: #ea1d5d;
+	background-image: linear-gradient(to bottom, #ea1d5d, #b82c64);
+	color: #fff;
+}
+
