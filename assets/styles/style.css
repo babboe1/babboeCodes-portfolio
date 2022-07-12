@@ -651,3 +651,12 @@ h2 {
 	width: 100%;
 	z-index: 1;
 }
+
+.blur.bg-2 {
+	background: url(../images/background1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(2px);
+}
+
