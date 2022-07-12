@@ -586,3 +586,16 @@ h2 {
 	transform-style: preserve-3d;
 	opacity: 0;
 }
+
+.flip-card-inner {
+	min-width: 20rem;
+	max-width: 25rem;
+	min-height: 37rem;
+	position: relative;
+	top: 0;
+	transition: 1s ease-in-out;
+	-webkit-transition: 1s ease-in-out;
+	transform-style: preserve-3d;
+	width: 100%;
+}
+
