@@ -638,3 +638,16 @@ h2 {
 	z-index: 0;
 }
 
+.blur {
+	background: url(../images/donload.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(8px);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
