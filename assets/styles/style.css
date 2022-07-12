@@ -620,3 +620,7 @@ h2 {
 	z-index: 2;
 }
 
+.flip-card-front .flip-card__content {
+	margin-top: -10px;
+}
+
