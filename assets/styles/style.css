@@ -615,3 +615,8 @@ h2 {
 	transform: translatez(100px) scale(0.9);
 }
 
+.flip-card-front {
+	background-color: #323;
+	z-index: 2;
+}
+
