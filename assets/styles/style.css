@@ -575,3 +575,14 @@ h2 {
 	animation-delay: 2s;
 }
 
+.flip-card {
+	/* border: 1px solid red; */
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 3rem 0;
+	perspective: 1000px;
+	position: relative;
+	transform-style: preserve-3d;
+	opacity: 0;
+}
