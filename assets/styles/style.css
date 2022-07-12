@@ -611,3 +611,7 @@ h2 {
 	width: 100%;
 }
 
+.flip-card__content {
+	transform: translatez(100px) scale(0.9);
+}
+
