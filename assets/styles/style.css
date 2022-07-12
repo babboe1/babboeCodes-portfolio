@@ -660,3 +660,8 @@ h2 {
 	filter: blur(2px);
 }
 
+.flip-card-inner:hover {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
