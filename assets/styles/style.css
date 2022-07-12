@@ -599,3 +599,15 @@ h2 {
 	width: 100%;
 }
 
+.side {
+	backface-visibility: hidden;
+	border-radius: 10px;
+	color: #fff;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	transform-style: preserve-3d;
+	width: 100%;
+}
+
