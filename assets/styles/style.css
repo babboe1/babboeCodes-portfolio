@@ -631,3 +631,10 @@ h2 {
 	padding: 2rem 1rem;
 	width: 100%;
 }
+
+.flip-card-back {
+	background-color: #333;
+	transform: rotateY(180deg);
+	z-index: 0;
+}
+
