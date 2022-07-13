@@ -520,3 +520,12 @@ h2 {
 	animation-delay: 1s;
 }
 
+.project-section__nav {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2rem 2rem;
+	opacity: 0;
+	animation-delay: 1.5s;
+}
+
