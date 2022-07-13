@@ -491,3 +491,8 @@ h2 {
 	width: 100%;
 }
 
+.service-content__img {
+	max-width: 12rem;
+	width: 100%;
+}
+
