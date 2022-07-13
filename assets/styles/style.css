@@ -453,3 +453,7 @@ h2 {
 	transition: 1s;
 }
 
+.about-section__text.animate {
+	opacity: 0;
+}
+
