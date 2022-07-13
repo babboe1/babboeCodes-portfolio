@@ -467,3 +467,18 @@ h2 {
 	font-size: 1rem;
 }
 
+/* styles for services rendered */
+.service__content {
+	background-color: rgb(240, 239, 239);
+	border-radius: 1rem;
+	box-shadow: 10px 10px 10px 0px rgba(83, 6, 6, 0.24);
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(83, 6, 6, 0.24);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(83, 6, 6, 0.24);
+	margin: 2rem auto;
+	max-width: 25rem;
+	padding: 2rem 1rem;
+	text-align: center;
+	transition: 0.5s;
+	opacity: 0;
+}
+
