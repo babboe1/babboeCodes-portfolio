@@ -444,3 +444,12 @@ h2 {
 	font-weight: bold;
 }
 
+.about-section__text {
+	line-height: 1.8rem;
+	margin: 0 auto;
+	max-width: 25rem;
+	padding: 2rem 0 0;
+	width: 100%;
+	transition: 1s;
+}
+
