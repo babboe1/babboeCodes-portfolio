@@ -291,12 +291,12 @@ h2 {
 	display: none;
 }
 
-.nav-bar__item:nth-of-type(1) a {
-	color: #ea1d5d;
+.active {
+	color: #ea1d5d !important;
 }
 
 .nav-bar__link {
-	color: #21243d;
+	color: #fff;
 	line-height: 1.5rem;
 	padding: 10px;
 }
@@ -427,4 +427,8 @@ h2 {
 	width: 100%;
 }
 
+/* styles for about me section description */
+.about-section__title {
+	padding: 2rem 0 0;
+}
 
