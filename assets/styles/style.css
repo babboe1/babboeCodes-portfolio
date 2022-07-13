@@ -487,3 +487,7 @@ h2 {
 	transform: scale(110%);
 }
 
+.service-content__image-box {
+	width: 100%;
+}
+
