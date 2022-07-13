@@ -438,3 +438,9 @@ h2 {
 	line-height: 5rem;
 }
 
+.about-section__text__paragraph {
+	color: #ea1d5d;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
