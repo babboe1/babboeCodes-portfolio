@@ -482,3 +482,8 @@ h2 {
 	opacity: 0;
 }
 
+.service__content:hover,
+.about-section__text:hover {
+	transform: scale(110%);
+}
+
