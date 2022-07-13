@@ -432,3 +432,9 @@ h2 {
 	padding: 2rem 0 0;
 }
 
+.about-section__text-text--sub {
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 5rem;
+}
+
