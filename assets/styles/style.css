@@ -529,3 +529,7 @@ h2 {
 	animation-delay: 1.5s;
 }
 
+.project-section__nav__btn {
+	padding: 1rem 0;
+}
+
