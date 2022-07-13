@@ -514,3 +514,9 @@ h2 {
 	background: #edf7fa;
 	height: 15rem;
 }
+.project-section__title {
+	padding: 2rem 0;
+	opacity: 0;
+	animation-delay: 1s;
+}
+
