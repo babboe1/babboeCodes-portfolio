@@ -505,3 +505,8 @@ h2 {
 	line-height: 1.5rem;
 }
 
+/* STYLES FOR PROJECT SECTION */
+.project-section {
+	opacity: 0;
+}
+
