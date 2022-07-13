@@ -510,3 +510,7 @@ h2 {
 	opacity: 0;
 }
 
+.project-section__content {
+	background: #edf7fa;
+	height: 15rem;
+}
