@@ -496,3 +496,8 @@ h2 {
 	width: 100%;
 }
 
+.service-content__title {
+	padding: 1.5rem 0;
+	color: #ea1d5d;
+}
+
