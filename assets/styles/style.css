@@ -457,3 +457,9 @@ h2 {
 	opacity: 0;
 }
 
+.about-contact-btn {
+	margin: 0 auto;
+	max-width: 10rem;
+	padding: 2rem 0;
+}
+
