@@ -701,4 +701,12 @@ h2 {
 	box-shadow: -10px -10px 9px -9px rgba(0, 0, 0, 0.75);
 }
 
+.flip-card__image-box {
+	border: 1px solid #eee;
+	border-radius: 10px;
+	max-height: 40rem;
+	overflow: hidden;
+	width: 100%;
+}
+
 
