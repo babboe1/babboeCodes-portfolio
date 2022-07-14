@@ -722,4 +722,10 @@ h2 {
 	padding: 2rem 0 3rem;
 }
 
+/* styles for current stack */
+.stack-section__content {
+	display: flex;
+	flex-direction: column;
+}
+
 
