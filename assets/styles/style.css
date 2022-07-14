@@ -791,3 +791,12 @@ label {
 	cursor: pointer;
 }
 
+.message-section--form {
+	column-gap: 1.5rem;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+}
+
+/* style for input */
+
