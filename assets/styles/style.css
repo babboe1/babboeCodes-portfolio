@@ -776,4 +776,9 @@ h2 {
 	animation-delay: 1s;
 }
 
+.cartoon-pic2 img {
+	transform: translateX(-25px);
+	width: 100%;
+}
+
 
