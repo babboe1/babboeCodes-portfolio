@@ -697,3 +697,8 @@ h2 {
 	-moz-box-shadow: 10px 10px 9px -9px rgba(0, 0, 0, 0.75);
 }
 
+.flip-card__action:active {
+	box-shadow: -10px -10px 9px -9px rgba(0, 0, 0, 0.75);
+}
+
+
