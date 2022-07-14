@@ -781,4 +781,10 @@ h2 {
 	width: 100%;
 }
 
+.message-section--title {
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+
 
