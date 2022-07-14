@@ -728,4 +728,13 @@ h2 {
 	flex-direction: column;
 }
 
+.stack-section__content--list {
+	align-items: baseline;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0 0 3rem;
+	row-gap: 3rem;
+	text-align: center;
+	opacity: 0;
+}
 
