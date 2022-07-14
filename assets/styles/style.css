@@ -833,4 +833,11 @@ label {
 	opacity: 0;
 }
 
+.footer-content {
+	/* border: 1px solid red; */
+	padding: 2rem 1rem;
+	text-align: center;
+	width: 100%;
+}
+
 
