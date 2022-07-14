@@ -840,4 +840,14 @@ label {
 	width: 100%;
 }
 
+.footer-section-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	max-width: 17rem;
+	row-gap: 2rem;
+	width: 100%;
+}
+
 
