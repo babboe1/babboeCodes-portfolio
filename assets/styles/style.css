@@ -827,4 +827,10 @@ label {
 	cursor: pointer;
 }
 
+/* styles for footer container */
+#footer {
+	background-color: #21243d;
+	opacity: 0;
+}
+
 
