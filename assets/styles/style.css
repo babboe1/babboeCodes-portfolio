@@ -799,4 +799,15 @@ label {
 }
 
 /* style for input */
+#email-id {
+	background-color: rgb(255, 255, 255, 0);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	color: #fff;
+	height: 3.5rem;
+	max-width: 298px;
+	padding: 1rem;
+	width: 100%;
+}
+
 
