@@ -718,4 +718,8 @@ h2 {
 	display: none;
 }
 /* STYLES FOR TECH STACK */
+.stack-section--title {
+	padding: 2rem 0 3rem;
+}
+
 
