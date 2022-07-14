@@ -815,4 +815,16 @@ label {
 	font-size: 16px;
 }
 
+/* style for input submit */
+#submit {
+	background-color: rgb(255, 255, 255, 0);
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	max-width: 154px;
+	width: 100%;
+	cursor: pointer;
+}
+
 
