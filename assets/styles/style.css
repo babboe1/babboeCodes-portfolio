@@ -709,4 +709,9 @@ h2 {
 	width: 100%;
 }
 
+.flip-card__image {
+	border-radius: 10px;
+	width: 100%;
+}
+
 
