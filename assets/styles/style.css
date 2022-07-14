@@ -746,4 +746,8 @@ h2 {
 	transform: rotateZ(360deg);
 }
 
+.stack-section__content--item--icon img {
+	min-height: 6.4rem;
+}
+
 
