@@ -763,4 +763,9 @@ h2 {
 	z-index: -1;
 }
 
+.message-section__content {
+	opacity: 0;
+	animation-delay: 1s;
+}
+
 
