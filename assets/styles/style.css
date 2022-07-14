@@ -738,3 +738,8 @@ h2 {
 	opacity: 0;
 }
 
+.stack-section__content--item--icon {
+	transition: 1s;
+}
+
+
