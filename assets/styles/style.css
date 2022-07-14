@@ -750,4 +750,17 @@ h2 {
 	min-height: 6.4rem;
 }
 
+/* STYLES FOR MESSAGE SECTION */
+.message-section {
+	background-color: #ea1d5d;
+	padding: 2rem 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	animation-delay: 0.5s;
+	z-index: -1;
+}
+
 
