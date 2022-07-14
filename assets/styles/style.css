@@ -742,4 +742,8 @@ h2 {
 	transition: 1s;
 }
 
+.stack-section__content--item--icon:hover {
+	transform: rotateZ(360deg);
+}
+
 
