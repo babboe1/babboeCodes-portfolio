@@ -768,4 +768,12 @@ h2 {
 	animation-delay: 1s;
 }
 
+.cartoon-pic2 {
+	display: none;
+	width: 100%;
+	max-width: 10rem;
+	opacity: 0;
+	animation-delay: 1s;
+}
+
 
