@@ -989,4 +989,8 @@ label {
 	text-align: center;
 }
 
+.footer-attribution a {
+	color: var( --main-color);
+	font-size: 14px;
+}
 
