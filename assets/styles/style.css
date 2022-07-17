@@ -1030,4 +1030,15 @@ label {
 	font-size: 28px;
 }
 
+.rounded1 {
+	top: 80%;
+	left: 100%;
+	width: 60px;
+	height: 40px;
+	border-radius: 30px;
+	text-align: center;
+	background-color: rgba(227, 31, 113, 0.5);
+	font-size: 28px;
+}
+
 
