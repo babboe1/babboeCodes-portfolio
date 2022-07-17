@@ -1060,4 +1060,13 @@ label {
 	border-top-right-radius: 15px;
 	background-color: rgb(7 13 124 / 50%);
 }
+.circle {
+	top: 30%;
+	left: 100%;
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: rgba(255, 226, 64, 0.5);
+}
 
