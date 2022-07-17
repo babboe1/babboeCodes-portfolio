@@ -947,4 +947,9 @@ label {
 	transition: 0.5s;
 }
 
+.footer-list__item a:hover {
+	color: #ea1e5e;
+	font-size: 22px;
+}
+
 
