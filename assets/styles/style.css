@@ -1012,4 +1012,11 @@ label {
    pointer-events: none;
    border: 1px solid;
 }
+.rectangle {
+	top: 1%;
+	left: 100%;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(0, 255, 187, 0.5);
+}
 
