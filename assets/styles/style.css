@@ -920,7 +920,6 @@ label {
 }
 
 .footer-content {
-	/* border: 1px solid red; */
 	padding: 2rem 1rem;
 	text-align: center;
 	width: 100%;
@@ -933,6 +932,12 @@ label {
 	margin: auto;
 	max-width: 17rem;
 	row-gap: 2rem;
+	width: 100%;
+}
+
+.footer__list {
+	column-gap: 1.5rem;
+	padding: 2rem 0 0;
 	width: 100%;
 }
 
