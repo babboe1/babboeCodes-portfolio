@@ -1051,4 +1051,13 @@ label {
 	background-color: rgb(7 13 124 / 50%);
 }
 
+.bottom {
+	top: 90%;
+	left: 100%;
+	width: 60px;
+	height: 40px;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: rgb(7 13 124 / 50%);
+}
 
