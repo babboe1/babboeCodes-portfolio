@@ -952,4 +952,12 @@ label {
 	font-size: 22px;
 }
 
+/* styles for social media icon */
+.social-media {
+	column-gap: 1.5rem;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
 
