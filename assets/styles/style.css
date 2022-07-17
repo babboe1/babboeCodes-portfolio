@@ -377,7 +377,7 @@ h2 {
 }
 
 .active {
-	color: #ea1d5d !important;
+	color: var( --main-color) !important;
 }
 
 .nav-bar__link {
@@ -450,7 +450,7 @@ h2 {
 }
 
 .hero-section__title-text--sub {
-	color: #ea1d5d;
+	color: var( --main-color);
 	font-size: 1.8rem;
 	animation: start-page 1s ease 1.5s forwards;
 }
@@ -474,8 +474,8 @@ h2 {
 	animation: start-page 1s ease 2.5s forwards;
 }
 .contact-btn-link {
-	background: #ea1d5d;
-	background-image: linear-gradient(to bottom, #ea1d5d, #b82c64);
+	background: var( --main-color);
+	background-image: linear-gradient(to bottom, var( --main-color), #b82c64);
 	border-radius: 12px;
 	color: #fff;
 	display: block;
@@ -486,7 +486,7 @@ h2 {
 
 .contact-btn-link:hover {
 	cursor: pointer;
-	background-image: linear-gradient(to bottom, #b82c64, #ea1d5d);
+	background-image: linear-gradient(to bottom, #b82c64, var( --main-color));
 }
 
 /* STYLES FOR ABOUT ME SECTION */
@@ -524,7 +524,7 @@ h2 {
 }
 
 .about-section__text__paragraph {
-	color: #ea1d5d;
+	color: var( --main-color);
 	font-size: 1.5rem;
 	font-weight: bold;
 }
@@ -583,7 +583,7 @@ h2 {
 
 .service-content__title {
 	padding: 1.5rem 0;
-	color: #ea1d5d;
+	color: var( --main-color);
 }
 
 .service-content__text {
@@ -620,17 +620,17 @@ h2 {
 
 /* style for more works button */
 .project-section__btn-link {
-	border: 3px solid #ea1d5d;
+	border: 3px solid var( --main-color);
 	border-radius: 5px;
-	color: #ea1d5d;
+	color: var( --main-color);
 	font-size: 11px;
 	font-weight: bold;
 	padding: 1rem 1.5rem;
 }
 
 .project-section__btn-link:hover {
-	background: #ea1d5d;
-	background-image: linear-gradient(to bottom, #ea1d5d, #b82c64);
+	background: var( --main-color);
+	background-image: linear-gradient(to bottom, var( --main-color), #b82c64);
 	color: #fff;
 }
 
@@ -648,6 +648,7 @@ h2 {
 	width: 100%;
 	padding: 0.5rem;
 	max-width: 8.5rem;
+	transition: 1s;
 }
 
 .project-section__btn-link__sub img {
