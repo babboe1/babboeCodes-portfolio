@@ -679,7 +679,6 @@ h2 {
 	min-height: 37rem;
 	position: relative;
 	top: 0;
-	transition: 1s ease-in-out;
 	-webkit-transition: 1s ease-in-out;
 	transform-style: preserve-3d;
 	width: 100%;
@@ -747,6 +746,7 @@ h2 {
 }
 
 .flip-card-inner:hover {
+   cursor: pointer;
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
@@ -838,14 +838,14 @@ h2 {
 
 /* STYLES FOR MESSAGE SECTION */
 .message-section {
-	background-color: #ea1d5d;
-	padding: 2rem 0;
+	animation-delay: 0.5s;
+	align-items: center;
+	background-color: var( --main-color);
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	opacity: 0;
-	animation-delay: 0.5s;
+	padding: 2rem 0;
 	z-index: -1;
 }
 
