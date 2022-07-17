@@ -972,4 +972,15 @@ label {
 	border: 3px solid #fff;
 }
 
+.social-media__link:hover {
+	transform: scale(1.5);
+	border: 3px solid #ea1e5e;
+}
+
+.social-media__image {
+	border-radius: 50%;
+	width: 100%;
+}
+
+/* styles for attribution */
 
