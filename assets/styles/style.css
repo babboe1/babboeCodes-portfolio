@@ -941,4 +941,10 @@ label {
 	width: 100%;
 }
 
+.footer-list__item a {
+	color: #fff;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
 
