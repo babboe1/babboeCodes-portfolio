@@ -1019,4 +1019,15 @@ label {
 	height: 50px;
 	background-color: rgba(0, 255, 187, 0.5);
 }
+.rounded {
+	top: 10%;
+	left: 100%;
+	width: 60px;
+	height: 40px;
+	border-radius: 30px;
+	text-align: center;
+	background-color: rgba(227, 31, 113, 0.5);
+	font-size: 28px;
+}
+
 
