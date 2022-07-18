@@ -1088,4 +1088,15 @@ label {
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+.parallelogram {
+	top: 60%;
+	left: 100%;
+	width: 50px;
+	height: 50px;
+	background-color: rgb(37 175 4 / 50%);
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	transform: skew(20deg);
+}
+
 
