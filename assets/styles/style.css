@@ -1233,4 +1233,9 @@ label {
 		justify-content: center;
 	}
 
+	/* styles for about me container */
+	.about-section__container.mobile {
+		display: none;
+	}
+
 
