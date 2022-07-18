@@ -1159,4 +1159,9 @@ label {
 		transition: 0.5s;
 	}
 
+	.magic-line-left1 {
+		width: 3rem;
+		left: -16rem;
+	}
+
 
