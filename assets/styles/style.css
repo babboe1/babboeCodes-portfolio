@@ -1107,4 +1107,10 @@ label {
 	background-color: rgba(0, 255, 187, 0.5);
 }
 
+/*STYLES FOR MEDIA QUERY */
+@media screen and (min-width: 480px) {
+	/* style for header */
+	#header {
+		padding: 1rem 2rem;
+	}
 
