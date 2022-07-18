@@ -1178,4 +1178,14 @@ label {
 		display: none;
 	}
 
+	.nav-bar__link {
+		color: #fff;
+	}
+
+	.footer-section-content {
+		margin: 0;
+		justify-content: flex-end;
+		row-gap: 1.5rem;
+	}
+
 
