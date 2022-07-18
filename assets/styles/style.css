@@ -1226,4 +1226,11 @@ label {
 		width: 100%;
 	}
 
+	.about-section--main {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+
 
