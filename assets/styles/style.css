@@ -1221,4 +1221,9 @@ label {
 		background-repeat: no-repeat;
 	}
 
+	.hero-image__image {
+		max-width: 22rem;
+		width: 100%;
+	}
+
 
