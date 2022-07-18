@@ -1069,4 +1069,13 @@ label {
 	border-radius: 100%;
 	background-color: rgba(255, 226, 64, 0.5);
 }
+.triangle {
+	top: 40%;
+	left: 100%;
+	width: 0;
+	height: 0;
+	border-bottom: 60px solid rgb(255 3 3 / 50%);
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+}
 
