@@ -1114,3 +1114,19 @@ label {
 		padding: 1rem 2rem;
 	}
 
+	/* styles for main section */
+	#main {
+		padding: 0 2rem 2rem;
+	}
+	/* style for more works button */
+	.project-section__btn-link {
+		font-size: 18px;
+	}
+
+	/* style for view on github button */
+	.project-section__btn-link__sub {
+		padding: 1rem;
+		max-width: 12.5rem;
+	}
+
+
