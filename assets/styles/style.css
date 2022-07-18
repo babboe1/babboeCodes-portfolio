@@ -1129,4 +1129,10 @@ label {
 		max-width: 12.5rem;
 	}
 
+	.project-section__nav {
+		width: 100%;
+		max-width: 34.75rem;
+		margin: auto;
+	}
+
 
