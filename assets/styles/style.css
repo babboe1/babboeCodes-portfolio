@@ -1141,4 +1141,22 @@ label {
 	}
 }
 
+/* style for media width 768 */
+@media screen and (min-width: 768px) {
+	.nav-bar__list {
+		display: flex;
+	}
+
+	.nav-bar__list--after {
+		display: block;
+		height: 10px;
+		width: 2.9rem;
+		position: relative;
+		border-bottom: 1px solid white;
+		border-radius: 5px;
+		top: 0.6rem;
+		left: -16rem;
+		transition: 0.5s;
+	}
+
 
