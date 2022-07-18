@@ -1199,3 +1199,13 @@ label {
 		max-width: 220px;
 	}
 
+	.flip-card-inner {
+		min-height: 40rem;
+	}
+
+	.flip-card__image-box {
+		max-height: 41rem;
+	}
+}
+
+
