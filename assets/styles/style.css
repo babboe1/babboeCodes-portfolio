@@ -1188,4 +1188,14 @@ label {
 		row-gap: 1.5rem;
 	}
 
+	.footer-content {
+		align-items: center;
+		justify-content: space-between;
+		display: flex;
+	}
+
+	.footer-content .image-logo {
+		width: auto;
+		max-width: 220px;
+	}
 
