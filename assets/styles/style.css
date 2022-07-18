@@ -1135,4 +1135,10 @@ label {
 		margin: auto;
 	}
 
+	/* style for flip card text */
+	.flip-card__text {
+		font-size: 18px;
+	}
+}
+
 
