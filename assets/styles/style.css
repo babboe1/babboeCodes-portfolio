@@ -1208,4 +1208,17 @@ label {
 	}
 }
 
+@media screen and (min-width: 1024px) {
+	/* styles for hero section */
+	.hero-section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding: 4rem 0 2rem;
+		background: url(../images/desktop/bg-image-desktop.svg);
+		background-size: 65rem;
+		background-position: 100% 0;
+		align-items: center;
+		background-repeat: no-repeat;
+	}
+
 
