@@ -1363,3 +1363,11 @@ label {
 		text-align: center;
 	}
 
+	.project-section__content {
+		padding: 2rem 0 23rem;
+	}
+
+	.cartoon-pic2 {
+		display: block;
+	}
+
