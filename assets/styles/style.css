@@ -1317,3 +1317,8 @@ label {
 		opacity: 0;
 	}
 
+	.about-section__content-main {
+		display: flex;
+		column-gap: 2rem;
+	}
+
