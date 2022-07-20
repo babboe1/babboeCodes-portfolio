@@ -1338,3 +1338,14 @@ label {
 		font-size: 3rem;
 	}
 
+	.about-section__text-text--main {
+		color: var(--main-color);
+	}
+
+	/* styles for project samples section */
+	.project-section__sample {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: -190px 0 0;
+	}
+
