@@ -1371,3 +1371,11 @@ label {
 		display: block;
 	}
 
+	/* styles  for footer section */
+	.footer-section-content {
+		align-items: center;
+		flex-direction: row;
+		max-width: 100%;
+		width: calc(200% / 3);
+	}
+
