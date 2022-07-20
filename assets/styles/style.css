@@ -1311,3 +1311,9 @@ label {
 		display: none;
 	}
 
+	.about-section__container.desktop {
+		display: block;
+		width: 50%;
+		opacity: 0;
+	}
+
