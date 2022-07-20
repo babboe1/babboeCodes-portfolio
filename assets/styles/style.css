@@ -8,13 +8,18 @@
 }
 
 :root {
-   --main-color: #ea1d5d;
+	--main-color: #ea1d5d;
 }
 
 /* GENERAL STYLES */
 html {
 	margin: 0;
 	padding: 0;
+   transition: 1s;
+}
+
+body {
+   transition: 1s;
 }
 
 ul {
@@ -140,8 +145,8 @@ h2 {
 }
 
 .gratitude__button {
-	background: var( --main-color);
-	background-image: linear-gradient(to bottom, var( --main-color), #b82c64);
+	background: var(--main-color);
+	background-image: linear-gradient(to bottom, var(--main-color), #b82c64);
 	border-radius: 12px;
 	color: #fff;
 	display: block;
@@ -153,7 +158,7 @@ h2 {
 
 .gratitude__button:hover {
 	cursor: pointer;
-	background-image: linear-gradient(to bottom, #b82c64, var( --main-color));
+	background-image: linear-gradient(to bottom, #b82c64, var(--main-color));
 	box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.18);
 	-webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.18);
 	-moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.18);
@@ -324,7 +329,7 @@ h2 {
 #body-content--home {
 	color: #21243d;
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin: auto;
+	margin: 0 auto;
 	max-width: 1440px;
 	scroll-behavior: smooth;
 	width: 100%;
@@ -343,6 +348,8 @@ h2 {
 	z-index: 10;
 	opacity: 0;
 	animation: opacity 1s ease-in 1s forwards;
+	margin: -1px;
+	transition: 1s;
 }
 
 /* style for logo image */
@@ -377,7 +384,7 @@ h2 {
 }
 
 .active {
-	color: var( --main-color) !important;
+	color: var(--main-color) !important;
 }
 
 .nav-bar__link {
@@ -507,7 +514,7 @@ h2 {
 }
 
 .hero-section__title-text--sub {
-	color: var( --main-color);
+	color: var(--main-color);
 	font-size: 1.8rem;
 	animation: start-page 1s ease 1.5s forwards;
 }
@@ -531,8 +538,8 @@ h2 {
 	animation: start-page 1s ease 2.5s forwards;
 }
 .contact-btn-link {
-	background: var( --main-color);
-	background-image: linear-gradient(to bottom, var( --main-color), #b82c64);
+	background: var(--main-color);
+	background-image: linear-gradient(to bottom, var(--main-color), #b82c64);
 	border-radius: 12px;
 	color: #fff;
 	display: block;
@@ -543,12 +550,14 @@ h2 {
 
 .contact-btn-link:hover {
 	cursor: pointer;
-	background-image: linear-gradient(to bottom, #b82c64, var( --main-color));
+	background-image: linear-gradient(to bottom, #b82c64, var(--main-color));
 }
 
 /* STYLES FOR ABOUT ME SECTION */
-.about-section {
+.about-section,
+.service-section {
 	text-align: center;
+	overflow-y: hidden;
 }
 
 .about-section__container {
@@ -581,7 +590,7 @@ h2 {
 }
 
 .about-section__text__paragraph {
-	color: var( --main-color);
+	color: var(--main-color);
 	font-size: 1.5rem;
 	font-weight: bold;
 }
@@ -640,7 +649,7 @@ h2 {
 
 .service-content__title {
 	padding: 1.5rem 0;
-	color: var( --main-color);
+	color: var(--main-color);
 }
 
 .service-content__text {
@@ -655,6 +664,7 @@ h2 {
 .project-section__content {
 	background: #edf7fa;
 	height: 15rem;
+   border-radius: 15px 15px 0 0;
 }
 .project-section__title {
 	padding: 2rem 0;
@@ -677,17 +687,17 @@ h2 {
 
 /* style for more works button */
 .project-section__btn-link {
-	border: 3px solid var( --main-color);
+	border: 3px solid var(--main-color);
 	border-radius: 5px;
-	color: var( --main-color);
+	color: var(--main-color);
 	font-size: 11px;
 	font-weight: bold;
 	padding: 1rem 1.5rem;
 }
 
 .project-section__btn-link:hover {
-	background: var( --main-color);
-	background-image: linear-gradient(to bottom, var( --main-color), #b82c64);
+	background: var(--main-color);
+	background-image: linear-gradient(to bottom, var(--main-color), #b82c64);
 	color: #fff;
 }
 
@@ -803,7 +813,7 @@ h2 {
 }
 
 .flip-card-inner:hover {
-   cursor: pointer;
+	cursor: pointer;
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
@@ -897,13 +907,14 @@ h2 {
 .message-section {
 	animation-delay: 0.5s;
 	align-items: center;
-	background-color: var( --main-color);
+	background-color: var(--main-color);
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	opacity: 0;
 	padding: 2rem 0;
 	z-index: -1;
+	border-radius: 15px;
 }
 
 .message-section__content {
@@ -1047,7 +1058,7 @@ label {
 }
 
 .footer-attribution a {
-	color: var( --main-color);
+	color: var(--main-color);
 	font-size: 14px;
 }
 
@@ -1066,8 +1077,8 @@ label {
 	position: absolute;
 	z-index: 100;
 	transition: 5s ease-in-out;
-   pointer-events: none;
-   border: 1px solid;
+	pointer-events: none;
+	border: 1px solid;
 }
 .rectangle {
 	top: 1%;
@@ -1299,5 +1310,4 @@ label {
 	.about-section__container.mobile {
 		display: none;
 	}
-
 
