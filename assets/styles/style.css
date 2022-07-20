@@ -1263,6 +1263,11 @@ label {
 	.flip-card__image-box {
 		max-height: 41rem;
 	}
+
+	.light-mode {
+		top: 30px;
+		right: 2rem;
+	}
 }
 
 @media screen and (min-width: 1024px) {
