@@ -1334,3 +1334,7 @@ label {
 		text-align: center;
 	}
 
+	.about-section__text-text--sub {
+		font-size: 3rem;
+	}
+
