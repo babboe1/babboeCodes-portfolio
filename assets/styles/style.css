@@ -1322,3 +1322,15 @@ label {
 		column-gap: 2rem;
 	}
 
+	.about-section__text {
+		background-color: rgb(240, 239, 239);
+		border-radius: 1rem;
+		box-shadow: 10px 10px 10px 0px rgb(83 6 6 / 24%);
+		-webkit-box-shadow: 10px 10px 10px 0px rgb(83 6 6 / 24%);
+		-moz-box-shadow: 10px 10px 10px 0px rgba(83, 6, 6, 0.24);
+		margin: 2rem auto;
+		max-width: 25rem;
+		padding: 2rem 1rem;
+		text-align: center;
+	}
+
