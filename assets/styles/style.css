@@ -1354,3 +1354,12 @@ label {
 		column-gap: 2rem;
 	}
 
+	.stack-section__content--list {
+		align-items: baseline;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		padding: 0 0 3rem;
+		row-gap: 3rem;
+		text-align: center;
+	}
+
