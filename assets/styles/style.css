@@ -1412,4 +1412,10 @@ label {
 		-moz-box-shadow: 1px 3px 42px 7px rgba(219, 142, 142, 0.75);
 	}
 
+	/* styles for hero section */
+	.hero-section {
+		background: url(../images/desktop/bg-image-desktop.svg) 100% 0px / 100%
+			no-repeat;
+	}
+
 
