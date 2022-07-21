@@ -1465,4 +1465,8 @@ label {
 		transform: translateX(-6rem);
 	}
 
+	.about-section__text {
+		padding: 3rem 1rem;
+	}
+
 
