@@ -1387,3 +1387,12 @@ label {
 		transform: translateX(-50%);
 	}
 
+	.social-media {
+		max-width: max-content;
+	}
+
+	.random-shapes {
+		/* display: block; */
+	}
+}
+
