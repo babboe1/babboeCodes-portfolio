@@ -1423,3 +1423,10 @@ label {
 		text-align: left;
 	}
 
+	.hero-section__title-text--main,
+	.hero-section__title-text--sub {
+		font-size: 3.5rem;
+		line-height: 4rem;
+	}
+
+
