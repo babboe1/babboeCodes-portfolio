@@ -1403,4 +1403,13 @@ label {
 	}
 }
 
+/* STYLES FOR MEDIA SCREEN 1400 */
+@media screen and (min-width: 1440px) {
+	body {
+		border: 1px solid #eee;
+		box-shadow: 1px 3px 42px 7px rgba(219, 142, 142, 0.75);
+		-webkit-box-shadow: 1px 3px 42px 7px rgba(219, 142, 142, 0.75);
+		-moz-box-shadow: 1px 3px 42px 7px rgba(219, 142, 142, 0.75);
+	}
+
 
