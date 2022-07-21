@@ -1473,4 +1473,8 @@ label {
 		padding: 2rem 0 0;
 	}
 
+	.about-image__image {
+		border-radius: 10px;
+	}
+
 
