@@ -1461,4 +1461,8 @@ label {
 		transform: translateX(4rem);
 	}
 
+	.about-section__container.desktop {
+		transform: translateX(-6rem);
+	}
+
 
