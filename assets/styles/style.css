@@ -1482,4 +1482,11 @@ label {
 		display: flex;
 	}
 
+	.project-section__content {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding: 6rem 4rem 23rem;
+	}
+
 
