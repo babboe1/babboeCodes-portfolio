@@ -1433,4 +1433,10 @@ label {
 		font-size: 3.5rem;
 	}
 
+	.hero-section__text {
+		font-size: 16px;
+		line-height: 2rem;
+		padding: 2rem 0;
+	}
+
 
