@@ -1443,4 +1443,8 @@ label {
 		width: 100%;
 	}
 
+	.hero-image__image {
+		max-width: 35rem;
+	}
+
 
