@@ -1396,3 +1396,11 @@ label {
 	}
 }
 
+/* STYLES FOR MEDIA SCREEN 1200 */
+@media screen and (min-width: 1200px) {
+	#main {
+		padding: 0 4rem 2rem;
+	}
+}
+
+
