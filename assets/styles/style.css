@@ -1379,3 +1379,11 @@ label {
 		width: calc(200% / 3);
 	}
 
+	.footer__list {
+		left: 50%;
+		max-width: max-content;
+		padding: 0 0;
+		position: absolute;
+		transform: translateX(-50%);
+	}
+
