@@ -1477,4 +1477,9 @@ label {
 		border-radius: 10px;
 	}
 
+	/* styles for project section */
+	.project-section__content {
+		display: flex;
+	}
+
 
