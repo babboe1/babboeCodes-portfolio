@@ -1447,4 +1447,13 @@ label {
 		max-width: 35rem;
 	}
 
+	/* styles for about me section */
+	.contact-btn {
+		margin: 0;
+	}
+
+	.about-section__text-text--sub {
+		font-size: 4rem;
+	}
+
 
