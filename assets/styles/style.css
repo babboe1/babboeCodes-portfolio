@@ -1418,4 +1418,8 @@ label {
 			no-repeat;
 	}
 
+	.hero-section__title-text,
+	.hero-section__text {
+		text-align: left;
+	}
 
