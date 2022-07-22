@@ -53,3 +53,8 @@
 	left: 0;
 }
 
+.project-tile:hover {
+	opacity: 0;
+	z-index: -10;
+}
+
