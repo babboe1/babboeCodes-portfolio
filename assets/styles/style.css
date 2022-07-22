@@ -1542,4 +1542,13 @@ label {
 		grid-area: f;
 	}
 
+	.cartoon-pic {
+		display: block;
+		grid-area: z;
+		width: 100%;
+		max-width: 13rem;
+		margin: auto;
+		transition: 1s;
+	}
+
 
