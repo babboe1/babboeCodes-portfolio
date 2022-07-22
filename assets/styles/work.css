@@ -2,4 +2,14 @@
 	margin: 0 0 2rem;
 }
 
+.project-content {
+	position: relative;
+	padding: 0 2rem;
+	overflow-y: hidden;
+	border-radius: 15px;
+	max-width: 65rem;
+	margin: auto;
+	transition: 0.5s;
+}
+
 
