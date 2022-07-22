@@ -107,3 +107,7 @@
 	-moz-box-shadow: 10px 10px 9px -9px rgba(0, 0, 0, 0.75);
 }
 
+.project-tile__link:active {
+	box-shadow: -10px -10px 9px -9px rgba(0, 0, 0, 0.75);
+}
+
