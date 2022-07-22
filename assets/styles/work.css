@@ -95,3 +95,9 @@
 	);
 }
 
+.flip-card__text {
+	line-height: 2rem;
+	text-align: center;
+	padding: 0;
+}
+
