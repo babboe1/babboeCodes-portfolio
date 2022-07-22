@@ -111,3 +111,9 @@
 	box-shadow: -10px -10px 9px -9px rgba(0, 0, 0, 0.75);
 }
 
+.blur-bg1 {
+	background-image: url(../images/previews/interior.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
