@@ -1518,4 +1518,28 @@ label {
 			'd d e e f f '
 			'm m e e n n ';
 	}
+	.box1 {
+		grid-area: a;
+	}
+
+	.box2 {
+		grid-area: b;
+	}
+
+	.box3 {
+		grid-area: c;
+	}
+
+	.box4 {
+		grid-area: d;
+	}
+
+	.box5 {
+		grid-area: e;
+	}
+
+	.box6 {
+		grid-area: f;
+	}
+
 
