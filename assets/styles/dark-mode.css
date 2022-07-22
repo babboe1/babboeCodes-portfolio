@@ -1,0 +1,23 @@
+html {
+	background: url(../images/desktop/Bg1-image.jpg);
+	background-size: contain;
+	background-repeat: repeat;
+}
+body {
+	background: black;
+}
+
+.hero-section {
+	background:none;
+   color: #a77c05;
+}
+
+h3 {
+   color: #a77c05;
+}
+
+@media screen and (max-width:786px) {
+   .about-section {
+      color: white;
+   }
+}
