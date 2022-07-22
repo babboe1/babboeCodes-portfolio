@@ -28,3 +28,9 @@
 	border-radius: 15px;
 	z-index: -1;
 }
+
+.project-blur:hover {
+	filter: blur(0);
+	z-index: 10;
+	border: 2px solid yellow;
+}
