@@ -58,3 +58,10 @@
 	z-index: -10;
 }
 
+.project-tile__title {
+	color: rgb(194, 165, 2);
+	font-weight: 700;
+	font-size: 2rem;
+	max-width: fit-content;
+}
+
