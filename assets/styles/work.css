@@ -34,3 +34,22 @@
 	z-index: 10;
 	border: 2px solid yellow;
 }
+
+.project-tile {
+	min-height: 37rem;
+	max-width: 50rem;
+	margin: 0 auto;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 15px;
+	transition: 1s;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
