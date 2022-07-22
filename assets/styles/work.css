@@ -78,3 +78,20 @@
 	padding: 1rem;
 }
 
+.project-tile__nav > :nth-child(n):hover {
+	transform: scale(110%);
+}
+
+.flip-card__action {
+	width: 100%;
+	max-width: 12rem;
+	text-align: center;
+	transition: 0.5s;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		90deg,
+		rgba(131, 58, 180, 1) 24%,
+		rgba(225, 61, 79, 1) 91%
+	);
+}
+
