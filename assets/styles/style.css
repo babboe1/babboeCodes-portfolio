@@ -1489,4 +1489,11 @@ label {
 		padding: 6rem 4rem 23rem;
 	}
 
+	.project-section__nav {
+		width: 100%;
+		max-width: 25.75rem;
+		margin: 0;
+		padding: 0;
+	}
+
 
