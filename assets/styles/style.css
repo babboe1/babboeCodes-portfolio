@@ -1496,4 +1496,26 @@ label {
 		padding: 0;
 	}
 
+	.project-section__sample {
+		margin: -21rem 0 0;
+		grid-template-columns: auto;
+		grid-template-rows: repeat(16, auto);
+		grid-template-areas:
+			'x x a a y y '
+			'b b a a c c '
+			'b b a a c c '
+			'b b a a c c '
+			'b b a a c c '
+			'b b a a c c '
+			'b b a a c c '
+			'b b z z c c '
+			'd d z z f f '
+			'd d e e f f '
+			'd d e e f f '
+			'd d e e f f '
+			'd d e e f f '
+			'd d e e f f '
+			'd d e e f f '
+			'm m e e n n ';
+	}
 
