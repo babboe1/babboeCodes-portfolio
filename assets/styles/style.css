@@ -1551,4 +1551,11 @@ label {
 		transition: 1s;
 	}
 
+	.cartoon-pic:hover {
+		transform: rotateZ(360deg);
+	}
 
+	.cartoon-pic img {
+		width: 100%;
+	}
+}
