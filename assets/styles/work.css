@@ -210,3 +210,9 @@
 		background-position: center;
 		background-size: cover;
 	}
+	.blur-bg4 {
+		background-image: url(../images/desktop/room-design.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
