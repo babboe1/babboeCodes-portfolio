@@ -198,3 +198,9 @@
 		background-position: center;
 		background-size: cover;
 	}
+	.blur-bg2 {
+		background-image: url(../images/desktop/crowdfunding.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
