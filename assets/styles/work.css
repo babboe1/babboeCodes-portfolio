@@ -183,3 +183,7 @@
 		max-width: 25rem;
 	}
 
+	.project-tile {
+		row-gap: 2rem;
+	}
+
