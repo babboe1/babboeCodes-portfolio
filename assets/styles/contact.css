@@ -119,4 +119,9 @@ h1 {
 	background-image: linear-gradient(to bottom, #b82c64, var( --main-color));
 }
 
+#map-canvas {
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+}
 
