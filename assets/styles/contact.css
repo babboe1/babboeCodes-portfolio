@@ -103,4 +103,14 @@ h1 {
 	width: 100%;
 }
 
+.contact-button-link {
+	background: var( --main-color);
+	background-image: linear-gradient(to bottom, var( --main-color), #b82c64);
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	padding: 1.2rem;
+	text-align: center;
+}
 
