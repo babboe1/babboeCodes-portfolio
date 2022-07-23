@@ -73,4 +73,13 @@ h1 {
 	line-height: 25px;
 }
 
+.contact-form-action {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	width: 100%;
+	max-width: 30rem;
+	margin: 0 auto;
+	padding: 0 0 1rem;
+}
 
