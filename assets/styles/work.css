@@ -178,3 +178,8 @@
 	background-size: cover;
 }
 
+@media screen and (min-width: 1024px) {
+	.main-section--title__main {
+		max-width: 25rem;
+	}
+
