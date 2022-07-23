@@ -66,4 +66,11 @@ h1 {
 	color: #fff;
 }
 
+.main-section__main--paragraph a {
+	color: #fff;
+	font-weight: 450;
+	font-size: 20px;
+	line-height: 25px;
+}
+
 
