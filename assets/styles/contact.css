@@ -17,3 +17,12 @@ h1 {
 	padding: 2rem;
 }
 
+.main-section--title__sub {
+	font-size: 12px;
+	font-weight: 300;
+	color: #8695a4;
+	display: block;
+	padding: 0 0 0.5rem;
+}
+
+
