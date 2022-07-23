@@ -59,4 +59,11 @@ h1 {
 	margin: 2rem 0;
 }
 
+.main-section__main--heading {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 40px;
+	color: #fff;
+}
+
 
