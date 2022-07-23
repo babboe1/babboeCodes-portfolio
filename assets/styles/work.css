@@ -246,3 +246,10 @@
 		background-position: center;
 		background-size: cover;
 	}
+	.blur-bg11 {
+		background-image: url(../images/desktop/babboes-area-desktop.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
