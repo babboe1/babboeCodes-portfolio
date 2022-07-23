@@ -97,4 +97,10 @@ h1 {
 	border: 1px solid #6ed9f9;
 }
 
+.contact-button {
+	margin: 0 auto;
+	max-width: 9rem;
+	width: 100%;
+}
+
 
