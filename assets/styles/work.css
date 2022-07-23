@@ -234,3 +234,9 @@
 		background-position: center;
 		background-size: cover;
 	}
+	.blur-bg8 {
+		background-image: url(../images/desktop/info-desktop.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
