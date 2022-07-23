@@ -83,3 +83,11 @@ h1 {
 	padding: 0 0 1rem;
 }
 
+#full-name,
+#email-tag {
+	width: 100%;
+	border: 1px solid #6ed9f9;
+	border-radius: 4px;
+	padding: 16px 20px;
+}
+
