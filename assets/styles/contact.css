@@ -3,3 +3,12 @@
 	opacity: 1;
 }
 
+.main-section--title {
+	background: #edf7fa;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2rem 0 0;
+   border-radius: 15px;
+}
+
