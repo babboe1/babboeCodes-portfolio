@@ -216,3 +216,15 @@
 		background-position: center;
 		background-size: cover;
 	}
+	.blur-bg5 {
+		background-image: url(../images/desktop/fylo.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.blur-bg6 {
+		background-image: url(../images/desktop/sunny.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
