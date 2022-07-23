@@ -192,3 +192,9 @@
 		max-width: fit-content;
 	}
 
+	.blur-bg1 {
+		background-image: url(../images/desktop/interior.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
