@@ -12,7 +12,6 @@
 	transition: 0.5s;
 }
 
-
 .project-content:hover {
 	transform: scale(105%);
 }
