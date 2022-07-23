@@ -123,3 +123,9 @@
 	background-position: center;
 	background-size: cover;
 }
+.blur-bg3 {
+	background-image: url(../images/previews/loopstudio.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
