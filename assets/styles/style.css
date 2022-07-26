@@ -554,10 +554,8 @@ h2 {
 }
 
 /* STYLES FOR ABOUT ME SECTION */
-.about-section,
-.service-section {
+.about-section {
 	text-align: center;
-	overflow-y: hidden;
 }
 
 .about-section__container {
@@ -1064,7 +1062,7 @@ label {
 
 /* styles for random shapes */
 .random-shapes {
-	display: none;
+	/* display: none; */
 	top: 0;
 	left: 0;
 	position: fixed;
@@ -1078,7 +1076,6 @@ label {
 	z-index: 100;
 	transition: 5s ease-in-out;
 	pointer-events: none;
-	border: 1px solid;
 }
 .rectangle {
 	top: 1%;
@@ -1304,6 +1301,7 @@ label {
 		flex-direction: row-reverse;
 		align-items: center;
 		justify-content: center;
+		overflow-x: hidden;
 	}
 
 	/* styles for about me container */
@@ -1320,6 +1318,7 @@ label {
 	.about-section__content-main {
 		display: flex;
 		column-gap: 2rem;
+		overflow-x: hidden;
 	}
 
 	.about-section__text {
@@ -1352,6 +1351,7 @@ label {
 	.service-content-grid {
 		display: flex;
 		column-gap: 2rem;
+		overflow-x: hidden;
 	}
 
 	.stack-section__content--list {
