@@ -19,4 +19,8 @@ const PROJECT_SECTION_CONTENT = document.querySelector(
 );
 const PROJECT_SECTION_TITLE = document.querySelector('.project-section__title');
 const PROJECT_SECTION_NAV = document.querySelector('.project-section__nav');
+const PROJECT_SECTION_SAMPLE = document.querySelector(
+	'.project-section__sample',
+);
+const FLIP_CARD = document.querySelectorAll('.flip-card');
 
