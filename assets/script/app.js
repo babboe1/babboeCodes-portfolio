@@ -18,4 +18,5 @@ const PROJECT_SECTION_CONTENT = document.querySelector(
 	'.project-section__content',
 );
 const PROJECT_SECTION_TITLE = document.querySelector('.project-section__title');
+const PROJECT_SECTION_NAV = document.querySelector('.project-section__nav');
 
