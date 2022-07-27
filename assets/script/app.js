@@ -35,4 +35,7 @@ const MINI_FORM = document.querySelector('.message-section--form');
 const CONTACT_PAGE_FORM = document.querySelector('.contact-form-action');
 const GRATITUDE = document.querySelector('.gratitude');
 const GRATITUDE_BTN = document.querySelector('.gratitude__button');
+const SHAPES = document.querySelectorAll('.shape');
+const TOGGLE_MODE = document.getElementById('light-dark');
+
 
