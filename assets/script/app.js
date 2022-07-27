@@ -31,4 +31,6 @@ const MESSAGE_SECTION_CONTENT = document.querySelector(
 	'.message-section__content',
 );
 const CARTOON_PIC2 = document.querySelector('.cartoon-pic2');
+const MINI_FORM = document.querySelector('.message-section--form');
+const CONTACT_PAGE_FORM = document.querySelector('.contact-form-action');
 
