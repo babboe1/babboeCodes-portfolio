@@ -38,4 +38,6 @@ const GRATITUDE_BTN = document.querySelector('.gratitude__button');
 const SHAPES = document.querySelectorAll('.shape');
 const TOGGLE_MODE = document.getElementById('light-dark');
 
+const DARK_MODE = document.createElement('link');
+DARK_MODE.type = 'text/css';
 
