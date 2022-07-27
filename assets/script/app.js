@@ -57,4 +57,13 @@ const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
 };
 
+const StopScroll = () => {
+	document.body.classList.toggle('StopScroll');
+};
+
+const modalDrop = () => {
+	BackDrop();
+	StopScroll();
+};
+
 
