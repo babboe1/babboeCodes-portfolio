@@ -15,4 +15,7 @@ const SERVICE_CONTENT = document.querySelectorAll('.service__content');
 const OFFER_SERVICE = document.querySelector('.service-section--title');
 const PROJECT_SECTION = document.querySelector('.project-section');
 const PROJECT_SECTION_CONTENT = document.querySelector(
+	'.project-section__content',
+);
+const PROJECT_SECTION_TITLE = document.querySelector('.project-section__title');
 
