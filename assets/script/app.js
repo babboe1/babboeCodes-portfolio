@@ -75,3 +75,9 @@ const backDropHandler = () => {
 	}
 };
 
+const magicLine = (value) => {
+	LINE.className = 'nav-bar__list--after';
+	LINE.classList.add(`${value}`);
+};
+
+
