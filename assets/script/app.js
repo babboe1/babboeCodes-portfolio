@@ -40,4 +40,7 @@ const TOGGLE_MODE = document.getElementById('light-dark');
 
 const DARK_MODE = document.createElement('link');
 DARK_MODE.type = 'text/css';
+DARK_MODE.rel = 'stylesheet';
+DARK_MODE.href = './assets/styles/dark-mode.css';
+let modeValue;
 
