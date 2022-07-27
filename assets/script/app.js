@@ -23,4 +23,8 @@ const PROJECT_SECTION_SAMPLE = document.querySelector(
 	'.project-section__sample',
 );
 const FLIP_CARD = document.querySelectorAll('.flip-card');
+const [STACK_SECTION1, STACK_SECTION2, STACK_SECTION3] =
+	document.querySelectorAll('.stack-section__content--list');
+const MESSAGE_SECTION = document.querySelector('.message-section');
+const FOOTER = document.getElementById('footer');
 
