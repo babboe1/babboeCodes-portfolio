@@ -66,4 +66,12 @@ const modalDrop = () => {
 	StopScroll();
 };
 
+const backDropHandler = () => {
+	if (GRATITUDE.classList.contains('visible')) {
+		modalDrop();
+		GRATITUDE.classList.remove('visible');
+	} else if (MENU_MODAL.classList.contains('visible')) {
+		menuBtnHandler();
+	}
+};
 
