@@ -8,4 +8,8 @@ const [ABOUT_SECTION_DESKTOP, ABOUT_SECTION_MOBILE] = document.querySelectorAll(
 	'.about-section__container ',
 );
 const ABOUT_IMAGE = document.getElementById('about-img-id');
+const ABOUT_SECTION_TEXT = document.querySelectorAll(
+	'.about-section__text.animate',
+);
+const SERVICE_CONTENT = document.querySelectorAll('.service__content');
 
