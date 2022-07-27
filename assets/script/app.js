@@ -27,4 +27,8 @@ const [STACK_SECTION1, STACK_SECTION2, STACK_SECTION3] =
 	document.querySelectorAll('.stack-section__content--list');
 const MESSAGE_SECTION = document.querySelector('.message-section');
 const FOOTER = document.getElementById('footer');
+const MESSAGE_SECTION_CONTENT = document.querySelector(
+	'.message-section__content',
+);
+const CARTOON_PIC2 = document.querySelector('.cartoon-pic2');
 
