@@ -44,3 +44,12 @@ DARK_MODE.rel = 'stylesheet';
 DARK_MODE.href = './assets/styles/dark-mode.css';
 let modeValue;
 
+
+window.onload = () => {
+   modeValue = window.localStorage.getItem('light-dark');
+	if (modeValue === 'dark') {
+		TOGGLE_MODE.classList.add('dark-mode');
+		HEAD_TAG.appendChild(DARK_MODE);
+	} 
+};
+
