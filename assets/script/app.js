@@ -178,3 +178,6 @@ if (
 	observerHandler1(CARTOON_PIC2, 'right-in', CARTOON_PIC2);
 	observerHandler1(FOOTER, 'opacity', FOOTER);
 
+	const observerHandler2 = (element, animate, observeEl) => {
+		const observer = new IntersectionObserver(
+
