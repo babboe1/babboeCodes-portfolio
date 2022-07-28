@@ -171,4 +171,10 @@ if (
 	observerHandler1(STACK_SECTION3, 'start-page', STACK_SECTION3);
 	observerHandler1(MESSAGE_SECTION, 'start-page', MESSAGE_SECTION);
 	observerHandler1(
+		MESSAGE_SECTION_CONTENT,
+		'left-in',
+		MESSAGE_SECTION_CONTENT,
+	);
+	observerHandler1(CARTOON_PIC2, 'right-in', CARTOON_PIC2);
+	observerHandler1(FOOTER, 'opacity', FOOTER);
 
