@@ -212,4 +212,8 @@ if (
 				if (entries[0].isIntersecting === true) {
 					if (window.innerWidth < 768) {
 						element.forEach((section, idx) => {
+							if (idx % 2 === 0) {
+								section.classList.add(`${animate1}`);
+								section.style.animationDuration = `1`;
+								section.style.animationDelay = `${idx}s`;
 
