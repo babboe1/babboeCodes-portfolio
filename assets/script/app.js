@@ -148,4 +148,11 @@ if (
 		window.location.pathname.includes('work.html')
 	)
 ) {
+	const observerHandler1 = (element, animate, observe) => {
+		const observer = new IntersectionObserver(
+			function (entries) {
+				if (entries[0].isIntersecting === true) {
+					element.classList.add(`${animate}`);
+				}
+			},
 
