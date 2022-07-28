@@ -80,4 +80,49 @@ const magicLine = (value) => {
 	LINE.classList.add(`${value}`);
 };
 
+const movingShapes = () => {
+	for (const shape of SHAPES) {
+		if (shape.classList.contains('rectangle')) {
+			let x = Math.random();
+			shape.style.top = `calc(20% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		} else if (shape.classList.contains('rounded')) {
+			let x = Math.random();
+			shape.style.top = `calc(50% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		} else if (shape.classList.contains('bottom')) {
+			let x = Math.random();
+			shape.style.top = `calc(50% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		} else if (shape.classList.contains('circle')) {
+			let x = Math.random();
+			shape.style.top = `calc(150% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		} else if (shape.classList.contains('triangle')) {
+			let x = Math.random();
+			shape.style.top = `calc(35% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		} else if (shape.classList.contains('diamond')) {
+			let x = Math.random();
+			shape.style.top = `calc(200% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		} else if (shape.classList.contains('parallelogram')) {
+			let x = Math.random();
+			shape.style.top = `calc(200% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		} else if (shape.classList.contains('rectangle1')) {
+			let x = Math.random();
+			shape.style.top = `calc(100% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		} else if (shape.classList.contains('rounded1')) {
+			let x = Math.random();
+			shape.style.top = `calc(200% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		} else if (shape.classList.contains('triangle')) {
+			let x = Math.random();
+			shape.style.top = `calc(100% * ${x})`;
+			shape.style.left = `calc(80% * ${x})`;
+		}
+	}
+};
 
