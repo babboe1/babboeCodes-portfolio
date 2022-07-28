@@ -192,4 +192,12 @@ if (
 							e.currentTarget.style.transition = '1s';
 							e.currentTarget.style.color = '#ea1d5d';
 						});
+						el.addEventListener('mouseleave', (e) => {
+							e.currentTarget.classList.remove('scale');
+							e.currentTarget.style.color = '';
+							el.style.opacity = 1;
+						});
+					});
+				}
+			},
 
