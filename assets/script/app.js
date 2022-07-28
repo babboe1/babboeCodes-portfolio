@@ -180,4 +180,11 @@ if (
 
 	const observerHandler2 = (element, animate, observeEl) => {
 		const observer = new IntersectionObserver(
+			function (entries) {
+				if (entries[0].isIntersecting === true) {
+					element.forEach((el, idx) => {
+						el.classList.add(`${animate}`);
+						el.style.animationDuration = `1s`;
+						el.style.animationDelay = `${idx}s`;
+						el.addEventListener('mouseover', (e) => {
 
