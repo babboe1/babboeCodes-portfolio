@@ -209,4 +209,7 @@ if (
 	const observerHandler3 = (element, animate1, animate2, observeEl) => {
 		const observer = new IntersectionObserver(
 			function (entries) {
+				if (entries[0].isIntersecting === true) {
+					if (window.innerWidth < 768) {
+						element.forEach((section, idx) => {
 
