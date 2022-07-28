@@ -206,3 +206,7 @@ if (
 	};
 	observerHandler2(ABOUT_SECTION_TEXT, 'left-in', ABOUT_SECTION_TEXT[0]);
 
+	const observerHandler3 = (element, animate1, animate2, observeEl) => {
+		const observer = new IntersectionObserver(
+			function (entries) {
+
