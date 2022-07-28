@@ -200,4 +200,9 @@ if (
 					});
 				}
 			},
+			{ threshold: [1] },
+		);
+		observer.observe(observeEl);
+	};
+	observerHandler2(ABOUT_SECTION_TEXT, 'left-in', ABOUT_SECTION_TEXT[0]);
 
