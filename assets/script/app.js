@@ -160,4 +160,7 @@ if (
 		observer.observe(observe);
 	};
 
+	observerHandler1(ABOUT_SECTION_DESKTOP, 'right-in', ABOUT_SECTION_DESKTOP);
+	observerHandler1(ABOUT_SECTION_MOBILE, 'right-in', ABOUT_SECTION_MOBILE);
+	observerHandler1(ABOUT_IMAGE, 'left-in', ABOUT_IMAGE);
 
