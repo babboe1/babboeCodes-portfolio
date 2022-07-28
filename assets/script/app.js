@@ -163,4 +163,8 @@ if (
 	observerHandler1(ABOUT_SECTION_DESKTOP, 'right-in', ABOUT_SECTION_DESKTOP);
 	observerHandler1(ABOUT_SECTION_MOBILE, 'right-in', ABOUT_SECTION_MOBILE);
 	observerHandler1(ABOUT_IMAGE, 'left-in', ABOUT_IMAGE);
+	observerHandler1(PROJECT_SECTION, 'start-page', PROJECT_SECTION_CONTENT);
+	observerHandler1(PROJECT_SECTION_TITLE, 'start-page', PROJECT_SECTION_TITLE);
+	observerHandler1(PROJECT_SECTION_NAV, 'start-page', PROJECT_SECTION_NAV);
+	observerHandler1(STACK_SECTION1, 'start-page', STACK_SECTION1);
 
