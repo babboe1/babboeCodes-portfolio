@@ -142,4 +142,10 @@ const menuBtnHandler = () => {
 	MENU_MODAL.classList.toggle('visible');
 };
 
+if (
+	!(
+		window.location.pathname.includes('contact.html') ||
+		window.location.pathname.includes('work.html')
+	)
+) {
 
