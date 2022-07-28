@@ -129,4 +129,9 @@ setInterval(() => {
 	movingShapes();
 }, 4000);
 
+const gratitudeModalHandler = () => {
+	modalDrop();
+	GRATITUDE.classList.toggle('visible');
+};
+
 
