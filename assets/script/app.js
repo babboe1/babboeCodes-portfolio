@@ -216,4 +216,10 @@ if (
 								section.classList.add(`${animate1}`);
 								section.style.animationDuration = `1`;
 								section.style.animationDelay = `${idx}s`;
+							} else {
+								section.classList.add(`${animate2}`);
+								section.style.animationDuration = `1`;
+								section.style.animationDelay = `${idx}s`;
+							}
+
 
