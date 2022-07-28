@@ -125,4 +125,8 @@ const movingShapes = () => {
 		}
 	}
 };
+setInterval(() => {
+	movingShapes();
+}, 4000);
+
 
