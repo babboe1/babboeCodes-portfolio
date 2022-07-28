@@ -155,4 +155,9 @@ if (
 					element.classList.add(`${animate}`);
 				}
 			},
+			{ threshold: [0.8] },
+		);
+		observer.observe(observe);
+	};
+
 
