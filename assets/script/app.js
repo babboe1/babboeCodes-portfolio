@@ -167,4 +167,8 @@ if (
 	observerHandler1(PROJECT_SECTION_TITLE, 'start-page', PROJECT_SECTION_TITLE);
 	observerHandler1(PROJECT_SECTION_NAV, 'start-page', PROJECT_SECTION_NAV);
 	observerHandler1(STACK_SECTION1, 'start-page', STACK_SECTION1);
+	observerHandler1(STACK_SECTION2, 'start-page', STACK_SECTION2);
+	observerHandler1(STACK_SECTION3, 'start-page', STACK_SECTION3);
+	observerHandler1(MESSAGE_SECTION, 'start-page', MESSAGE_SECTION);
+	observerHandler1(
 
