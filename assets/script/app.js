@@ -247,4 +247,7 @@ if (
 		if (window.innerWidth < 768) {
 			PROJECT_SECTION_SAMPLE.style.opacity = 1;
 			FLIP_CARD.forEach((section, idx) => {
+				if (idx % 2 === 0) {
+					observerHandler1(section, 'left-in', section);
+				} else {
 
