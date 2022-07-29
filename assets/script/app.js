@@ -227,4 +227,9 @@ if (
 								e.currentTarget.classList.add('scale');
 								e.currentTarget.style.transition = '1s';
 							});
+							section.addEventListener('mouseleave', (e) => {
+								e.currentTarget.classList.remove('scale');
+								section.style.opacity = 1;
+							});
+						});
 
