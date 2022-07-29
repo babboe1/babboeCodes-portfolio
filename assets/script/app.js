@@ -241,4 +241,6 @@ if (
 		);
 		observer.observe(observeEl);
 	};
+	observerHandler3(SERVICE_CONTENT, 'left-in', 'right-in', OFFER_SERVICE);
+
 
