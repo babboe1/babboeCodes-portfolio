@@ -301,4 +301,5 @@ const toggleModeHandler = () => {
 };
 
 BACKDROP.addEventListener('click', backDropHandler);
+MENU_BTN.addEventListener('click', menuBtnHandler);
 
