@@ -257,4 +257,11 @@ if (
 			FLIP_CARD.forEach((section, idx) => {
 				section.style.opacity = 1;
 			});
+			observerHandler1(
+				PROJECT_SECTION_SAMPLE,
+				'project-animate',
+				PROJECT_SECTION_NAV,
+			);
+		}
+	};
 
