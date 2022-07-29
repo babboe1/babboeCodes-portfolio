@@ -300,3 +300,5 @@ const toggleModeHandler = () => {
 	}
 };
 
+BACKDROP.addEventListener('click', backDropHandler);
+
