@@ -265,3 +265,6 @@ if (
 		}
 	};
 
+	projectAnimate();
+}
+
