@@ -222,4 +222,9 @@ if (
 								section.style.animationDelay = `${idx}s`;
 							}
 
+							section.addEventListener('mouseover', (e) => {
+								e.currentTarget.style.animation = 'none';
+								e.currentTarget.classList.add('scale');
+								e.currentTarget.style.transition = '1s';
+							});
 
