@@ -289,4 +289,7 @@ const toggleModeHandler = () => {
 		TOGGLE_MODE.classList.add('dark-mode');
 		HEAD_TAG.appendChild(DARK_MODE);
       LIGHT_DARK_VALUE = true;
+      window.localStorage.removeItem('light-dark');
+      window.localStorage.setItem('light-dark', `dark`);
+      
 
