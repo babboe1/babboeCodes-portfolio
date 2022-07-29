@@ -292,4 +292,11 @@ const toggleModeHandler = () => {
       window.localStorage.removeItem('light-dark');
       window.localStorage.setItem('light-dark', `dark`);
       
+	} else if (TOGGLE_MODE.className === 'light-mode dark-mode') {
+		TOGGLE_MODE.classList.remove('dark-mode');
+		HEAD_TAG.removeChild(DARK_MODE);
+		window.localStorage.removeItem('light-dark');
+		window.localStorage.setItem('light-dark', `light`);
+	}
+};
 
