@@ -239,4 +239,6 @@ if (
 			},
 			{ threshold: [0.5] },
 		);
+		observer.observe(observeEl);
+	};
 
