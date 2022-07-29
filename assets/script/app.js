@@ -268,3 +268,9 @@ if (
 	projectAnimate();
 }
 
+MINI_FORM.addEventListener('submit', (e) => {
+	gratitudeModalHandler();
+	e.preventDefault();
+	e.target['email-id'].value = '';
+});
+
