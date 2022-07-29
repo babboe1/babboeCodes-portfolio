@@ -274,3 +274,13 @@ MINI_FORM.addEventListener('submit', (e) => {
 	e.target['email-id'].value = '';
 });
 
+if (window.location.pathname.includes('/contact.html')) {
+	CONTACT_PAGE_FORM.addEventListener('submit', (e) => {
+		gratitudeModalHandler();
+		e.preventDefault();
+		e.target['full-name'].value = '';
+		e.target['email-tag'].value = '';
+		e.target['user-message'].value = '';
+	});
+}
+
