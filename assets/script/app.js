@@ -284,3 +284,9 @@ if (window.location.pathname.includes('/contact.html')) {
 	});
 }
 
+const toggleModeHandler = () => {
+	if (TOGGLE_MODE.className === 'light-mode') {
+		TOGGLE_MODE.classList.add('dark-mode');
+		HEAD_TAG.appendChild(DARK_MODE);
+      LIGHT_DARK_VALUE = true;
+
