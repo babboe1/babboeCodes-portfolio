@@ -253,4 +253,8 @@ if (
 					observerHandler1(section, 'right-in', section);
 				}
 			});
+		} else {
+			FLIP_CARD.forEach((section, idx) => {
+				section.style.opacity = 1;
+			});
 
