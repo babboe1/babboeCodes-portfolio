@@ -232,4 +232,11 @@ if (
 								section.style.opacity = 1;
 							});
 						});
+					} else {
+						observerHandler2(SERVICE_CONTENT, 'left-in', OFFER_SERVICE);
+					}
+				}
+			},
+			{ threshold: [0.5] },
+		);
 
