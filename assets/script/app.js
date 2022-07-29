@@ -243,4 +243,8 @@ if (
 	};
 	observerHandler3(SERVICE_CONTENT, 'left-in', 'right-in', OFFER_SERVICE);
 
+	const projectAnimate = () => {
+		if (window.innerWidth < 768) {
+			PROJECT_SECTION_SAMPLE.style.opacity = 1;
+			FLIP_CARD.forEach((section, idx) => {
 
