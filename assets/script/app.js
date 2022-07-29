@@ -250,4 +250,7 @@ if (
 				if (idx % 2 === 0) {
 					observerHandler1(section, 'left-in', section);
 				} else {
+					observerHandler1(section, 'right-in', section);
+				}
+			});
 
