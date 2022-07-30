@@ -310,4 +310,6 @@ window.addEventListener('scroll', () => {
 	if (window.scrollY < 20) {
 		HEADER.style.backgroundColor = '#21243d';
 	} else {
-
+		HEADER.style.backgroundColor = 'rgb(0, 0, 0, 0.8)';
+	}
+});
