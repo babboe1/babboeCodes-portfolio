@@ -306,4 +306,6 @@ IMAGE_ID.addEventListener('click', menuBtnHandler);
 GRATITUDE_BTN.addEventListener('click', gratitudeModalHandler);
 TOGGLE_MODE.addEventListener('click', toggleModeHandler);
 const HEADER = document.getElementById('header');
+window.addEventListener('scroll', () => {
+	if (window.scrollY < 20) {
 
