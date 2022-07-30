@@ -44,13 +44,12 @@ DARK_MODE.rel = 'stylesheet';
 DARK_MODE.href = './assets/styles/dark-mode.css';
 let modeValue;
 
-
 window.onload = () => {
-   modeValue = window.localStorage.getItem('light-dark');
+	modeValue = window.localStorage.getItem('light-dark');
 	if (modeValue === 'dark') {
 		TOGGLE_MODE.classList.add('dark-mode');
 		HEAD_TAG.appendChild(DARK_MODE);
-	} 
+	}
 };
 
 const BackDrop = () => {
@@ -288,10 +287,9 @@ const toggleModeHandler = () => {
 	if (TOGGLE_MODE.className === 'light-mode') {
 		TOGGLE_MODE.classList.add('dark-mode');
 		HEAD_TAG.appendChild(DARK_MODE);
-      LIGHT_DARK_VALUE = true;
-      window.localStorage.removeItem('light-dark');
-      window.localStorage.setItem('light-dark', `dark`);
-      
+		LIGHT_DARK_VALUE = true;
+		window.localStorage.removeItem('light-dark');
+		window.localStorage.setItem('light-dark', `dark`);
 	} else if (TOGGLE_MODE.className === 'light-mode dark-mode') {
 		TOGGLE_MODE.classList.remove('dark-mode');
 		HEAD_TAG.removeChild(DARK_MODE);
