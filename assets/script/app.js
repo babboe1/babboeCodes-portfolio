@@ -308,4 +308,6 @@ TOGGLE_MODE.addEventListener('click', toggleModeHandler);
 const HEADER = document.getElementById('header');
 window.addEventListener('scroll', () => {
 	if (window.scrollY < 20) {
+		HEADER.style.backgroundColor = '#21243d';
+	} else {
 
