@@ -304,4 +304,5 @@ BACKDROP.addEventListener('click', backDropHandler);
 MENU_BTN.addEventListener('click', menuBtnHandler);
 IMAGE_ID.addEventListener('click', menuBtnHandler);
 GRATITUDE_BTN.addEventListener('click', gratitudeModalHandler);
+TOGGLE_MODE.addEventListener('click', toggleModeHandler);
 
