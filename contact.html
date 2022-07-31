@@ -172,5 +172,33 @@
 				</form>
 			</section>
 
+			<!-- Location section -->
+			<section class="location-section">
+				<h2 class="location__title">Locate Me</h2>
+				<div class="">
+					<div id="map-canvas"></div>
+					<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+					<script>
+						var myLatlng = new google.maps.LatLng(6.5244, 3.3792);
+						var mapOptions = {
+							zoom: 4,
+							center: myLatlng,
+						};
+						var map = new google.maps.Map(
+							document.getElementById('map-canvas'),
+							mapOptions,
+						);
+						var marker = new google.maps.Marker({
+							position: myLatlng,
+							map: map,
+							title: 'Uluru (Ayers Rock)',
+							//    zIndex: Math.round(myLatlng.lat() * -100000) << 5
+						});
+					</script>
+				</div>
+			</section>
+
+
 	</body>
 </html>
