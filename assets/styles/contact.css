@@ -144,4 +144,11 @@ h1 {
 		align-items: center;
 	}
 
+	.main-section__main {
+		width: 45%;
+		height: 100%;
+		min-height: 25rem;
+		margin: 0;
+	}
+
 
