@@ -138,4 +138,10 @@ h1 {
 	width: 18rem;
 }
 
+@media screen and (min-width: 1024px) {
+	.main-section--content {
+		display: flex;
+		align-items: center;
+	}
+
 
