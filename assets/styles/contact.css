@@ -165,4 +165,9 @@ h1 {
 	}
 }
 
+@media screen and (min-width: 1440px) {
+	.main-section--content {
+		padding: 2rem 0;
+	}
+
 
