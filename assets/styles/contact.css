@@ -124,4 +124,8 @@ h1 {
 	height: 500px;
 	margin: 0 auto;
 }
+#map-canvas :nth-child(1) {
+	z-index: 10;
+}
+
 
