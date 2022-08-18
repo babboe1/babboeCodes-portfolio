@@ -156,4 +156,13 @@ h1 {
 		padding: 0;
 	}
 
+	#user-message {
+		height: 8.5rem;
+	}
+
+	.contact-button {
+		margin: 0;
+	}
+}
+
 
