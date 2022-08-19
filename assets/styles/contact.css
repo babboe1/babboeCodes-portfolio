@@ -170,4 +170,8 @@ h1 {
 		padding: 2rem 0;
 	}
 
+	.main-section__main {
+		min-height: 30rem;
+	}
+
 
