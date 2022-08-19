@@ -9,7 +9,7 @@
 	justify-content: space-between;
 	align-items: center;
 	margin: 2rem 0 0;
-   border-radius: 15px;
+	border-radius: 15px;
 }
 
 h1 {
@@ -37,8 +37,8 @@ h1 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 2rem;
-   text-align: left;
-   width: 100%;
+	text-align: left;
+	width: 100%;
 	max-width: 20rem;
 }
 
@@ -104,8 +104,8 @@ h1 {
 }
 
 .contact-button-link {
-	background: var( --main-color);
-	background-image: linear-gradient(to bottom, var( --main-color), #b82c64);
+	background: var(--main-color);
+	background-image: linear-gradient(to bottom, var(--main-color), #b82c64);
 	border-radius: 5px;
 	color: #fff;
 	display: block;
@@ -116,7 +116,7 @@ h1 {
 
 .contact-button-link:hover {
 	cursor: pointer;
-	background-image: linear-gradient(to bottom, #b82c64, var( --main-color));
+	background-image: linear-gradient(to bottom, #b82c64, var(--main-color));
 }
 
 #map-canvas {
@@ -182,4 +182,8 @@ h1 {
 		max-width: 35rem;
 	}
 
-
+	#full-name,
+	#email-tag {
+		font-size: 1.5rem;
+	}
+}
