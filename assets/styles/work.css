@@ -26,6 +26,9 @@
 	border: 2px solid red;
 	border-radius: 15px;
 	z-index: -1;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .project-blur:hover {
@@ -112,69 +115,36 @@
 
 .blur-bg1 {
 	background-image: url(../images/previews/interior.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg2 {
 	background-image: url(../images/previews/crowdfund.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg3 {
 	background-image: url(../images/previews/loopstudio.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg4 {
 	background-image: url(../images/previews/mobile-preview.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg5 {
 	background-image: url(../images/previews/fylo.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg6 {
 	background-image: url(../images/previews/sunny.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg7 {
 	background-image: url(../images/previews/Movie-mobile.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg8 {
 	background-image: url(../images/previews/info-mobile.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg9 {
 	background-image: url(../images/previews/card-mobile.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg10 {
 	background-image: url(../images/previews/anime-site.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .blur-bg11 {
 	background-image: url(../images/previews/babboes-area-mobile.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 
 @media screen and (min-width: 1024px) {
@@ -193,62 +163,32 @@
 
 	.blur-bg1 {
 		background-image: url(../images/desktop/interior.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.blur-bg2 {
 		background-image: url(../images/desktop/crowdfunding.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.blur-bg3 {
 		background-image: url(../images/desktop/loopstudio.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.blur-bg4 {
 		background-image: url(../images/desktop/room-design.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.blur-bg5 {
 		background-image: url(../images/desktop/fylo.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.blur-bg6 {
 		background-image: url(../images/desktop/sunny.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.blur-bg7 {
 		background-image: url(../images/previews/Movie-mobile.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.blur-bg8 {
 		background-image: url(../images/desktop/info-desktop.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.blur-bg9 {
 		background-image: url(../images/desktop/card-desktop.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.blur-bg11 {
 		background-image: url(../images/desktop/babboes-area-desktop.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 }
