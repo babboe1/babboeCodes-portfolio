@@ -11,7 +11,9 @@ Design inspirations were gotten from a some community designs on figma, Links ar
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshots](#screenshot)
   - [Links](#links)
+  - [Performance Test Result](#performance-testscore)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -46,6 +48,12 @@ Below is a preview of the babboeCodes portfolio website on desktop view <br/>
 ### Links
 
 - Live Site URL: [babboeCodes](https://your-live-site-url.com)
+
+### Performance TestScore
+
+Below is a lighthouse performance test score of the website Homepage <br/>
+![Homepage](./assets/images/desktop/lighthouse.webp "Preview Image")
+
 
 ## My process
 
