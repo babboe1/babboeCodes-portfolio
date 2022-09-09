@@ -129,23 +129,27 @@
 	background-image: url(../images/previews/fylo.jpg);
 }
 .blur-bg6 {
-	background-image: url(../images/previews/sunny.jpg);
+	background-image: url(../images/previews/Phonie-mobile.webp);
 }
 .blur-bg7 {
-	background-image: url(../images/previews/Movie-mobile.png);
+	background-image: url(../images/previews/sunny.jpg);
 }
 .blur-bg8 {
-	background-image: url(../images/previews/info-mobile.png);
+	background-image: url(../images/previews/Movie-mobile.png);
 }
 .blur-bg9 {
-	background-image: url(../images/previews/card-mobile.png);
-}
-.blur-bg10 {
 	background-image: url(../images/previews/anime-site.png);
 }
-.blur-bg11 {
+.blur-bg10 {
 	background-image: url(../images/previews/babboes-area-mobile.jpg);
 }
+.blur-bg11 {
+	background-image: url(../images/previews/info-mobile.png);
+}
+.blur-bg12 {
+	background-image: url(../images/previews/card-mobile.png);
+}
+
 
 @media screen and (min-width: 1024px) {
 	.main-section--title__main {
@@ -177,18 +181,22 @@
 		background-image: url(../images/desktop/fylo.jpg);
 	}
 	.blur-bg6 {
-		background-image: url(../images/desktop/sunny.jpg);
+		background-image: url(../images/desktop/Phonie.webp);
 	}
 	.blur-bg7 {
-		background-image: url(../images/previews/Movie-mobile.png);
+		background-image: url(../images/desktop/sunny.jpg);
 	}
 	.blur-bg8 {
-		background-image: url(../images/desktop/info-desktop.png);
+		background-image: url(../images/previews/Movie-mobile.png);
 	}
-	.blur-bg9 {
-		background-image: url(../images/desktop/card-desktop.png);
-	}
-	.blur-bg11 {
+   .blur-bg10 {
 		background-image: url(../images/desktop/babboes-area-desktop.jpg);
 	}
+	.blur-bg11 {
+		background-image: url(../images/desktop/info-desktop.png);
+	}
+	.blur-bg12 {
+		background-image: url(../images/desktop/card-desktop.png);
+	}
+	
 }
