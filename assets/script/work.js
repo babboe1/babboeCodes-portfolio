@@ -80,6 +80,13 @@ const projectObject = [
    },
    {
       className: 'blur-bg7',
+      title: 'The Phonie Project',
+      innerHtml: `The Phonie Project is a web-based application created by the team "Phantom_Devz" that can easily identify the telecoms carrier from a phone number inputted by the user. <br/> It is one of the three projects featured in the AltSchool Africa School Of Engineering holiday Hackathon in August '22. and it was built using HTML, CSS, and JavaScript.`,
+      flipCardBtnHref: 'https://phantom-devz-phonie.netlify.app/',
+      projectLinkHref: 'https://github.com/babboe1/Phonie-project-Phantom_Devz',
+   },
+   {
+      className: 'blur-bg8',
       title: 'Your Personal Movie Data-base',
       innerHtml: `This is "Your personal movie data-base", a web application
 							for storing list of personal movies, which also persist
