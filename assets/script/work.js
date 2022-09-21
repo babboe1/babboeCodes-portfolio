@@ -97,7 +97,7 @@ const projectObject = [
       projectLinkHref: 'https://github.com/babboe1/Personal-Movie-Database',
    },
    {
-      className: 'blur-bg8',
+      className: 'blur-bg9',
       title: 'Kiss Anime Web Clone',
       innerHtml: `This is a clone of the Cartoon's Area web application
 							Landing page, a multi webpage application design based on a
@@ -108,7 +108,7 @@ const projectObject = [
       projectLinkHref: 'https://github.com/babboe1/Animesite-clone',
    },
    {
-      className: 'blur-bg9',
+      className: 'blur-bg10',
       title: "Cartoon's Area web clone",
       innerHtml: `This is a clone of the Cartoon's Area web application, a
 							multi webpage application design based on a Japanese anime
@@ -119,7 +119,7 @@ const projectObject = [
       projectLinkHref: 'https://github.com/babboe1/Babboes-anime-site',
    },
    {
-      className: 'blur-bg10',
+      className: 'blur-bg11',
       title: 'Simple Profile Web Page',
       innerHtml: `This is a Simple profile landing page built as a solution
 							to one of AltSchool Africa cohort 2022 1st semester task<br />
@@ -130,7 +130,7 @@ const projectObject = [
       projectLinkHref: 'https://github.com/babboe1/Altschool-task/tree/master',
    },
    {
-      className: 'blur-bg11',
+      className: 'blur-12',
       title: 'Order Summary Card',
       innerHtml: `This is a solution to the Order Summary Card
 							challenge on Frontend Mentor.
@@ -138,18 +138,11 @@ const projectObject = [
 							My first Project on Frontend Mentor`,
       flipCardBtnHref: 'https://order-summary-card-mini.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Order-summary-card',
-   },
-   {
-      className: '',
-      title: '',
-      innerHtml: '',
-      flipCardBtnHref: '',
-      projectLinkHref: '',
    }
    // {
    //    className: '',
    //    title: '',
-   //    innerHtml: '',
+   //    innerHtml: ``,
    //    flipCardBtnHref: '',
    //    projectLinkHref: '',
    // },
