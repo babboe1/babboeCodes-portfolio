@@ -1,7 +1,7 @@
 const PROJECT_SECTION_CONTAINER = document.getElementById('project-section');
 
 const createElement = (element) => {
-	return document.createElement(element);
+   return document.createElement(element);
 };
 
 const projectObject = [
@@ -19,6 +19,7 @@ const projectObject = [
       projectLinkHref:
          'https://github.com/babboe1/Interior-Design-Langing-Page',
    },
+
    {
       className: 'blur-bg2',
       title: 'Crowdfunding Product page',
@@ -31,6 +32,7 @@ const projectObject = [
       flipCardBtnHref: 'https://babboe1-crowdfunding-product-page.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Crowdfunding-product-page',
    },
+
    {
       className: 'blur-bg3',
       title: 'Loopstudio Landing Page',
@@ -44,6 +46,7 @@ const projectObject = [
       flipCardBtnHref: 'https://loopstudio-landings-page.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Loopstudio-Landing-Page',
    },
+
    {
       className: 'blur-bg4',
       title: 'Room Design Homepage',
@@ -56,6 +59,7 @@ const projectObject = [
       flipCardBtnHref: 'https://room-design-homepage.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Room-Design-Homepage',
    },
+
    {
       className: 'blur-bg5',
       title: 'Fylo Landing Page',
@@ -67,6 +71,7 @@ const projectObject = [
       flipCardBtnHref: 'https://fylo-landing-page-babboe1.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Fylo-Landing-Page',
    },
+
    {
       className: 'blur-bg6',
       title: 'The Phonie Project',
@@ -86,13 +91,7 @@ const projectObject = [
       flipCardBtnHref: 'https://sunnysides-landingpage.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Sunnyside-Landing-Page',
    },
-   {
-      className: 'blur-bg7',
-      title: 'The Phonie Project',
-      innerHtml: `The Phonie Project is a web-based application created by the team "Phantom_Devz" that can easily identify the telecoms carrier from a phone number inputted by the user. <br/> It is one of the three projects featured in the AltSchool Africa School Of Engineering holiday Hackathon in August '22. and it was built using HTML, CSS, and JavaScript.`,
-      flipCardBtnHref: 'https://phantom-devz-phonie.netlify.app/',
-      projectLinkHref: 'https://github.com/babboe1/Phonie-project-Phantom_Devz',
-   },
+
    {
       className: 'blur-bg8',
       title: 'Your Personal Movie Data-base',
@@ -104,6 +103,7 @@ const projectObject = [
       flipCardBtnHref: 'https://personal-movie-database.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Personal-Movie-Database',
    },
+
    {
       className: 'blur-bg9',
       title: 'Kiss Anime Web Clone',
@@ -115,6 +115,7 @@ const projectObject = [
       flipCardBtnHref: 'https://anime-site-clone.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Animesite-clone',
    },
+
    {
       className: 'blur-bg10',
       title: "Cartoon's Area web clone",
@@ -126,6 +127,7 @@ const projectObject = [
       flipCardBtnHref: 'https://babboes-area-animesiteclone.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Babboes-anime-site',
    },
+
    {
       className: 'blur-bg11',
       title: 'Simple Profile Web Page',
@@ -137,8 +139,9 @@ const projectObject = [
       flipCardBtnHref: 'https://simple-info-profile.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Altschool-task/tree/master',
    },
+
    {
-      className: 'blur-12',
+      className: 'blur-bg12',
       title: 'Order Summary Card',
       innerHtml: `This is a solution to the Order Summary Card
 							challenge on Frontend Mentor.
@@ -146,7 +149,7 @@ const projectObject = [
 							My first Project on Frontend Mentor`,
       flipCardBtnHref: 'https://order-summary-card-mini.netlify.app/',
       projectLinkHref: 'https://github.com/babboe1/Order-summary-card',
-   }
+   },
    // {
    //    className: '',
    //    title: '',
@@ -157,49 +160,49 @@ const projectObject = [
 ];
 
 projectObject.forEach((project) => {
-	let WorksProjectContent = createElement('div');
-	WorksProjectContent.className = 'project-content';
+   let WorksProjectContent = createElement('div');
+   WorksProjectContent.className = 'project-content';
 
-	let projectBlur = createElement('div');
-	projectBlur.className = 'project-blur';
+   let projectBlur = createElement('div');
+   projectBlur.className = 'project-blur';
 
-	let projectTileDiv = createElement('div');
-	projectTileDiv.className = 'project-tile';
+   let projectTileDiv = createElement('div');
+   projectTileDiv.className = 'project-tile';
 
-	let projectTileNav = createElement('div');
-	projectTileNav.className = 'project-tile__nav';
+   let projectTileNav = createElement('div');
+   projectTileNav.className = 'project-tile__nav';
 
-	let projectTileH3 = createElement('h3');
-	projectTileH3.className = 'project-tile__title';
+   let projectTileH3 = createElement('h3');
+   projectTileH3.className = 'project-tile__title';
 
-	let projectTileText = createElement('p');
-	projectTileText.className = 'project-tile__text flip-card__text';
+   let projectTileText = createElement('p');
+   projectTileText.className = 'project-tile__text flip-card__text';
 
-	let flipCardBtn = createElement('a');
-	flipCardBtn.className = 'flip-card__action';
-	flipCardBtn.textContent = 'view live project';
+   let flipCardBtn = createElement('a');
+   flipCardBtn.className = 'flip-card__action';
+   flipCardBtn.textContent = 'view live project';
 
-	let projectTileLink = createElement('a');
-	projectTileLink.className =
-		'project-tile__link project-section__btn-link__sub';
+   let projectTileLink = createElement('a');
+   projectTileLink.className =
+      'project-tile__link project-section__btn-link__sub';
 
-	let githubIcon = createElement('img');
-	githubIcon.className = 'social-media__image';
-	githubIcon.src = './assets/images/icons/github.svg';
-	githubIcon.alt = 'Github';
+   let githubIcon = createElement('img');
+   githubIcon.className = 'social-media__image';
+   githubIcon.src = './assets/images/icons/github.svg';
+   githubIcon.alt = 'Github';
 
-	let viewGithub = createElement('span');
-	viewGithub.textContent = 'view on GitHub';
+   let viewGithub = createElement('span');
+   viewGithub.textContent = 'view on GitHub';
 
-	WorksProjectContent.append(projectBlur, projectTileDiv, projectTileNav);
-	projectTileDiv.append(projectTileH3, projectTileText);
-	projectTileNav.append(flipCardBtn, projectTileLink);
-	projectTileLink.append(githubIcon, viewGithub);
+   WorksProjectContent.append(projectBlur, projectTileDiv, projectTileNav);
+   projectTileDiv.append(projectTileH3, projectTileText);
+   projectTileNav.append(flipCardBtn, projectTileLink);
+   projectTileLink.append(githubIcon, viewGithub);
 
-	projectBlur.classList.add(project.className);
-	projectTileH3.textContent = project.title;
-	projectTileText.innerHTML = project.innerHtml;
-	flipCardBtn.href = project.flipCardBtnHref;
-	projectTileLink.href = project.projectLinkHref;
-	PROJECT_SECTION_CONTAINER.appendChild(WorksProjectContent);
+   projectBlur.classList.add(project.className);
+   projectTileH3.textContent = project.title;
+   projectTileText.innerHTML = project.innerHtml;
+   flipCardBtn.href = project.flipCardBtnHref;
+   projectTileLink.href = project.projectLinkHref;
+   PROJECT_SECTION_CONTAINER.appendChild(WorksProjectContent);
 });
