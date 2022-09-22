@@ -1,202 +1,200 @@
 .main-section--project-content {
-	margin: 0 0 2rem;
+   margin: 0 0 2rem;
 }
 
 .project-content {
-	position: relative;
-	padding: 0 2rem;
-	overflow-y: hidden;
-	border-radius: 15px;
-	max-width: 65rem;
-	margin: auto;
-	transition: 0.5s;
+   position: relative;
+   padding: 0 2rem;
+   overflow-y: hidden;
+   border-radius: 15px;
+   max-width: 65rem;
+   margin: auto;
+   transition: 0.5s;
 }
 
 .project-content:hover {
-	transform: scale(105%);
+   transform: scale(105%);
 }
 
 .project-blur {
-	width: 100%;
-	height: 37rem;
-	top: 2rem;
-	left: 0;
-	filter: blur(5px);
-	position: absolute;
-	border: 2px solid red;
-	border-radius: 15px;
-	z-index: -1;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+   width: 100%;
+   height: 37rem;
+   top: 2rem;
+   left: 0;
+   filter: blur(5px);
+   position: absolute;
+   border: 2px solid red;
+   border-radius: 15px;
+   z-index: -1;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 .project-blur:hover {
-	filter: blur(0);
-	z-index: 10;
-	border: 2px solid yellow;
+   filter: blur(0);
+   z-index: 10;
+   border: 2px solid yellow;
 }
 
 .project-tile {
-	min-height: 37rem;
-	max-width: 50rem;
-	margin: 0 auto;
-	color: white;
-	display: flex;
-	flex-direction: column;
-	row-gap: 1rem;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	border-radius: 15px;
-	transition: 1s;
-	position: relative;
-	top: 0;
-	left: 0;
+   min-height: 37rem;
+   max-width: 50rem;
+   margin: 0 auto;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   row-gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   border-radius: 15px;
+   transition: 1s;
+   position: relative;
+   top: 0;
+   left: 0;
 }
 
 .project-tile:hover {
-	opacity: 0;
-	z-index: -10;
+   opacity: 0;
+   z-index: -10;
 }
 
 .project-tile__title {
-	color: rgb(194, 165, 2);
-	font-weight: 700;
-	font-size: 2rem;
-	max-width: fit-content;
+   color: rgb(194, 165, 2);
+   font-weight: 700;
+   font-size: 2rem;
+   max-width: fit-content;
 }
 
 .project-tile__nav {
-	display: flex;
-	width: 100%;
-	max-width: 29rem;
-	column-gap: 2rem;
-	z-index: 100;
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translate(-50%);
-	padding: 1rem;
+   display: flex;
+   width: 100%;
+   max-width: 29rem;
+   column-gap: 2rem;
+   z-index: 100;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%);
+   padding: 1rem;
 }
 
 .project-tile__nav > :nth-child(n):hover {
-	transform: scale(110%);
+   transform: scale(110%);
 }
 
 .flip-card__action {
-	width: 100%;
-	max-width: 12rem;
-	text-align: center;
-	transition: 0.5s;
-	background: rgb(131, 58, 180);
-	background: linear-gradient(
-		90deg,
-		rgba(131, 58, 180, 1) 24%,
-		rgba(225, 61, 79, 1) 91%
-	);
+   width: 100%;
+   max-width: 12rem;
+   text-align: center;
+   transition: 0.5s;
+   background: rgb(131, 58, 180);
+   background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 24%,
+      rgba(225, 61, 79, 1) 91%
+   );
 }
 
 .flip-card__text {
-	line-height: 2rem;
-	text-align: center;
-	padding: 0;
+   line-height: 2rem;
+   text-align: center;
+   padding: 0;
 }
 
 .project-tile__link {
-	box-shadow: 10px 10px 9px -9px rgba(0, 0, 0, 0.75);
-	-webkit-box-shadow: 10px 10px 9px -9px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 10px 10px 9px -9px rgba(0, 0, 0, 0.75);
+   box-shadow: 10px 10px 9px -9px rgba(0, 0, 0, 0.75);
+   -webkit-box-shadow: 10px 10px 9px -9px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 10px 10px 9px -9px rgba(0, 0, 0, 0.75);
 }
 
 .project-tile__link:active {
-	box-shadow: -10px -10px 9px -9px rgba(0, 0, 0, 0.75);
+   box-shadow: -10px -10px 9px -9px rgba(0, 0, 0, 0.75);
 }
 
 .blur-bg1 {
-	background-image: url(../images/previews/interior.jpg);
+   background-image: url(../images/previews/interior.jpg);
 }
 .blur-bg2 {
-	background-image: url(../images/previews/crowdfund.jpg);
+   background-image: url(../images/previews/crowdfund.jpg);
 }
 .blur-bg3 {
-	background-image: url(../images/previews/loopstudio.jpg);
+   background-image: url(../images/previews/loopstudio.jpg);
 }
 .blur-bg4 {
-	background-image: url(../images/previews/mobile-preview.png);
+   background-image: url(../images/previews/mobile-preview.png);
 }
 .blur-bg5 {
-	background-image: url(../images/previews/fylo.jpg);
+   background-image: url(../images/previews/fylo.jpg);
 }
 .blur-bg6 {
-	background-image: url(../images/previews/Phonie-mobile.webp);
+   background-image: url(../images/previews/Phonie-mobile.webp);
 }
 .blur-bg7 {
-	background-image: url(../images/previews/sunny.jpg);
+   background-image: url(../images/previews/sunny.jpg);
 }
 .blur-bg8 {
-	background-image: url(../images/previews/Movie-mobile.png);
+   background-image: url(../images/previews/Movie-mobile.png);
 }
 .blur-bg9 {
-	background-image: url(../images/previews/anime-site.png);
+   background-image: url(../images/previews/anime-site.png);
 }
 .blur-bg10 {
-	background-image: url(../images/previews/babboes-area-mobile.jpg);
+   background-image: url(../images/previews/babboes-area-mobile.jpg);
 }
 .blur-bg11 {
-	background-image: url(../images/previews/info-mobile.png);
+   background-image: url(../images/previews/info-mobile.png);
 }
 .blur-bg12 {
-	background-image: url(../images/previews/card-mobile.png);
+   background-image: url(../images/previews/card-mobile.png);
 }
 
-
 @media screen and (min-width: 1024px) {
-	.main-section--title__main {
-		max-width: 25rem;
-	}
+   .main-section--title__main {
+      max-width: 25rem;
+   }
 
-	.project-tile {
-		row-gap: 2rem;
-	}
+   .project-tile {
+      row-gap: 2rem;
+   }
 
-	.project-tile__title {
-		font-size: 2.5rem;
-		max-width: fit-content;
-	}
+   .project-tile__title {
+      font-size: 2.5rem;
+      max-width: fit-content;
+   }
 
-	.blur-bg1 {
-		background-image: url(../images/desktop/interior.jpg);
-	}
-	.blur-bg2 {
-		background-image: url(../images/desktop/crowdfunding.jpg);
-	}
-	.blur-bg3 {
-		background-image: url(../images/desktop/loopstudio.jpg);
-	}
-	.blur-bg4 {
-		background-image: url(../images/desktop/room-design.jpg);
-	}
-	.blur-bg5 {
-		background-image: url(../images/desktop/fylo.jpg);
-	}
-	.blur-bg6 {
-		background-image: url(../images/desktop/Phonie.webp);
-	}
-	.blur-bg7 {
-		background-image: url(../images/desktop/sunny.jpg);
-	}
-	.blur-bg8 {
-		background-image: url(../images/previews/Movie-mobile.png);
-	}
+   .blur-bg1 {
+      background-image: url(../images/desktop/interior.jpg);
+   }
+   .blur-bg2 {
+      background-image: url(../images/desktop/crowdfunding.jpg);
+   }
+   .blur-bg3 {
+      background-image: url(../images/desktop/loopstudio.jpg);
+   }
+   .blur-bg4 {
+      background-image: url(../images/desktop/room-design.jpg);
+   }
+   .blur-bg5 {
+      background-image: url(../images/desktop/fylo.jpg);
+   }
+   .blur-bg6 {
+      background-image: url(../images/desktop/Phonie.webp);
+   }
+   .blur-bg7 {
+      background-image: url(../images/desktop/sunny.jpg);
+   }
+   .blur-bg8 {
+      background-image: url(../images/previews/Movie-mobile.png);
+   }
    .blur-bg10 {
-		background-image: url(../images/desktop/babboes-area-desktop.jpg);
-	}
-	.blur-bg11 {
-		background-image: url(../images/desktop/info-desktop.png);
-	}
-	.blur-bg12 {
-		background-image: url(../images/desktop/card-desktop.png);
-	}
-	
+      background-image: url(../images/desktop/babboes-area-desktop.jpg);
+   }
+   .blur-bg11 {
+      background-image: url(../images/desktop/info-desktop.png);
+   }
+   .blur-bg12 {
+      background-image: url(../images/desktop/card-desktop.png);
+   }
 }
