@@ -29,8 +29,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - browse and move through the pages from any of the webpages
 - Click and download CV/resume on the "Download CV" button
-- Click the "More works" to got to works page
-- Click the "View on Github" to got to Github repositories
+- Click the "More works" to go to works page
+- Click the "View on Github" to go to Github repositories
 - Flip project tile and click to view Live link 
 - fill and submit form on Contact page
 - Locate author on the map (using development mode maps api)
