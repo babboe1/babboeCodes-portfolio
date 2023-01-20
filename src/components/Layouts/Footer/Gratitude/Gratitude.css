@@ -1,0 +1,56 @@
+.gratitude {
+	background: #fff;
+	padding: 2rem 1rem;
+	text-align: center;
+	width: 100%;
+	max-width: 30rem;
+   margin:0 auto
+}
+
+.gratitude__image-box {
+	width: 100%;
+	max-width: 10rem;
+	margin: auto;
+}
+
+.gratitude__image {
+	width: 100%;
+}
+
+.gratitude__text {
+	padding: 1rem 0;
+	line-height: 1.5rem;
+	color: black;
+}
+
+.gratitude__btn-box {
+	margin: 0 auto;
+	max-width: 8rem;
+	width: 100%;
+}
+
+.gratitude__button {
+	background: #ea1d5d;
+	background-image: linear-gradient(to bottom, #ea1d5d, #b82c64);
+	border-radius: 12px;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	padding: 1rem 0;
+	text-align: center;
+	width: 100%;
+}
+
+.gratitude__button:hover {
+	cursor: pointer;
+	background-image: linear-gradient(to bottom, #b82c64, #ea1d5d);
+	box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.18);
+	-webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.18);
+	-moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.18);
+}
+
+.gratitude__button:active {
+	box-shadow: -10px -10px 5px -4px rgba(0, 0, 0, 0.18);
+	-webkit-box-shadow: -10px -10px 5px -4px rgba(0, 0, 0, 0.18);
+	-moz-box-shadow: -10px -10px 5px -4px rgba(0, 0, 0, 0.18);
+}
