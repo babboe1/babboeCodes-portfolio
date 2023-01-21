@@ -3,12 +3,41 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import axios from 'axios';
+import AxiosProvider from './components/Store/API/AxiosProvider';
+
+axios.defaults.baseURL = 'https://api.github.com/users/babboe1';
+
+axios.interceptors.request.use(
+   (request) => {
+      return request;
+   },
+   (error) => {
+      console.log(error);
+      return Promise.reject(error);
+   },
+);
+
+axios.interceptors.response.use(
+   (response) => {
+      return response;
+   },
+   (error) => {
+      console.log(error);
+      return Promise.reject(error);
+   },
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+   <BrowserRouter>
+      <React.StrictMode>
+         <AxiosProvider>
+            <App />
+         </AxiosProvider>
+      </React.StrictMode>
+   </BrowserRouter>,
 );
 
 // If you want to start measuring performance in your app, pass a function
