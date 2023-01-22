@@ -1,0 +1,42 @@
+.DrawerToggle {
+   display: none;
+}
+
+header .DrawerToggle {
+   display: flex;
+   width: 35px;
+   flex-direction: column;
+   row-gap: 6px;
+   align-items: center;
+   box-sizing: border-box;
+   cursor: pointer;
+   transition: all 1s ease;
+}
+
+.DrawerToggle div {
+   width: 90%;
+   height: 3px;
+   background-color: white;
+   border-radius: 15px;
+   transition: all .5s ease;
+}
+
+.DrawerToggle:hover div {
+   background-color: #ea1d5d;
+}
+
+.DrawerToggle.true > .line1 {
+   transform: rotate(-45deg) translate(-9px, 6px);
+}
+.DrawerToggle.true > .line2 {
+   opacity: 0;
+}
+.DrawerToggle.true > .line3 {
+   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media screen and (min-width: 768px) {
+   header .DrawerToggle {
+      display: none;
+   }
+}

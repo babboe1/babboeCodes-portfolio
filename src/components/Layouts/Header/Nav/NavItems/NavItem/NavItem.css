@@ -1,0 +1,9 @@
+.nav-bar__link {
+	color: #fff;
+	line-height: 1.5rem;
+	padding: 10px;
+}
+
+.active {
+	color: #ea1d5d !important;
+}

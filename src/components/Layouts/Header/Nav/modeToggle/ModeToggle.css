@@ -1,0 +1,62 @@
+.light-mode {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	position: absolute;
+	top: 30px;
+	right: 15%;
+	z-index: 5;
+	cursor: pointer;
+	/* animation: light-mode 0.5s ease-in forwards; */
+}
+
+/* .light-mode.false {
+	animation: dark-mode 0.5s ease-in forwards;
+} */
+
+@keyframes light-mode {
+	0% {
+		border: 2px solid #a77c05;
+		transform: scale(1);
+		background: url(../../../../../assets/icons/moon.png);
+		background-size: 6rem 6rem;
+		background-position: center center;
+	}
+	50% {
+		transform: scale(0.5);
+	}
+	100% {
+		border: 2px solid #ea1d5d;
+		transform: scale(1);
+		background: url(../../../../../assets/icons/sun.png);
+		background-size: 6rem 6rem;
+		background-position: center center;
+	}
+}
+
+@keyframes dark-mode {
+	0% {
+		border: 2px solid #ea1d5d;
+		border: none;
+		transform: scale(1);
+		background: url(../../../../../assets/icons/sun.png);
+		background-size: 6rem 6rem;
+		background-position: center center;
+	}
+	50% {
+		transform: scale(0.5);
+	}
+	100% {
+		border: 2px solid #a77c05;
+		transform: scale(1);
+		background: url(../../../../../assets/icons/moon.png);
+		background-size: 6rem 6rem;
+		background-position: center center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+   .light-mode {
+      right: 2%;
+   }
+}
