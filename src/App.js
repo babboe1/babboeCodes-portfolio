@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Layouts from './components/Layouts/Layouts';
+import Contact from './components/Layouts/Pages/Contact/Contact';
+import Home from './components/Layouts/Pages/Home/Home';
+import Repo from './components/Layouts/Pages/Works/Repositories/Repo/Repo';
+import Readme from './components/Layouts/Pages/Works/Repositories/RepoTile/ViewRepoBtn/Readme/Readme';
+import Works from './components/Layouts/Pages/Works/Works';
+import FormProvider from './components/Store/FormContext/FormProvider';
+import ModalProvider from './components/Store/ModalContext/ModalProvider';
+import ThemeProvider from './components/Store/ThemeContext/ThemeProvider';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+   return (
+      <ModalProvider>
+         <ThemeProvider>
+            <FormProvider>
+               <Layouts>
+                  <Routes>
+                     <Route path="/" element={<Home />} />
+                     <Route path="/works" element={<Works />} />
+                     <Route path="/contact" element={<Contact />} />
+                     <Route path={`/works/:repoName`} element={<Repo />}>
+                        <Route path="readme" element={<Readme />} />
+                     </Route>
+                  </Routes>
+               </Layouts>
+            </FormProvider>
+         </ThemeProvider>
+      </ModalProvider>
+   );
+};
 
 export default App;

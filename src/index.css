@@ -1,13 +1,111 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+/* universal selector style */
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* GENERAL STYLES */
+html {
+   margin: 0;
+   padding: 0;
+   transition: 1s;
+}
+
+body {
+   transition: 1s;
+   font-family: 'Montserrat Alternates', sans-serif;
+   color: #21243d;
+   margin: 0 auto;
+   max-width: 1440px;
+   scroll-behavior: smooth;
+   width: 100%;
+}
+
+html.false {
+	background: url(./assets/desktop/Bg1-image.jpg);
+	background-size: contain;
+	background-repeat: repeat;
+}
+
+body.false {
+	background: black;
+}
+
+#main {
+	padding: 0 1rem 2rem;
+	animation: start-page 1s ease forwards;
+}
+
+.hero-section.false {
+	background:none;
+   color: #a77c05;
+}
+
+h3.false {
+   color: #a77c05;
+}
+
+
+ul {
+   display: flex;
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+.hidden {
+   display: none;
+   pointer-events: none;
+}
+
+button {
+   border: none;
+   outline: none;
+}
+
+h2 {
+   background: #121fcf;
+   background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 2rem;
+   text-align: center;
+}
+
+.gap3 {
+   padding: 0 0 3rem;
+   text-align: center;
+}
+
+.StopScroll {
+   height: 100%;
+   overflow: hidden;
+}
+
+@media screen and (min-width: 480px) {
+	/* styles for main section */
+	#main {
+		padding: 0 2rem 2rem;
+	}
+}
+
+
+@media screen and (min-width: 1200px) {
+	#main {
+		padding: 0 4rem 2rem;
+	}
+}
+
+
+@media screen and (min-width: 1440px) {
+   body {
+      border: 1px solid #eee;
+      box-shadow: 1px 3px 42px 7px rgba(219, 142, 142, 0.75);
+      -webkit-box-shadow: 1px 3px 42px 7px rgba(219, 142, 142, 0.75);
+      -moz-box-shadow: 1px 3px 42px 7px rgba(219, 142, 142, 0.75);
+   }
 }

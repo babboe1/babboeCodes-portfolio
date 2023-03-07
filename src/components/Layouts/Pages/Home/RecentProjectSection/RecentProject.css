@@ -1,0 +1,190 @@
+.project-section {
+	/* opacity: 0; */
+}
+
+.project-section__content {
+	background: #edf7fa;
+	height: 15rem;
+	border-radius: 15px 15px 0 0;
+}
+.project-section__title {
+	padding: 2rem 0;
+	/* opacity: 0; */
+	animation-delay: 1s;
+}
+
+.project-section__nav {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2rem 2rem;
+	/* opacity: 0; */
+	animation-delay: 1.5s;
+}
+
+.project-section__nav__btn {
+	padding: 1rem 0;
+}
+
+/* style for more works button */
+.project-section__btn-link {
+	border: 3px solid#ea1d5d;
+	border-radius: 5px;
+	color:#ea1d5d;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+.project-section__btn-link:hover {
+	background:#ea1d5d;
+	background-image: linear-gradient(to bottom,#ea1d5d, #b82c64);
+	color: #fff;
+}
+
+/* style for view on github button */
+.project-section__btn-link__sub {
+	align-items: center;
+	background-color: #fff;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.16);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0.5rem;
+	max-width: 8.5rem;
+	transition: 1s;
+}
+
+.project-section__btn-link__sub img {
+	width: 2rem;
+}
+
+/* STYLES FOR FLIP CARD COMPONENT */
+.project-section__sample {
+	/* opacity: 0; */
+	animation-delay: 2s;
+}
+.cartoon-pic {
+	display: none;
+}
+
+@media screen and (min-width: 480px) {
+	.project-section__btn-link {
+		font-size: 18px;
+	}
+
+	.project-section__btn-link__sub {
+		padding: 1rem;
+		max-width: 12.5rem;
+	}
+
+	.project-section__nav {
+		width: 100%;
+		max-width: 34.75rem;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 768px) {
+   .project-section__btn-link {
+		padding: 1rem 1.5rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+   .project-section__sample {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: -190px 0 0;
+	}
+
+	.project-section__content {
+		padding: 2rem 0 23rem;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+   .project-section__content {
+		display: flex;
+	}
+
+	.project-section__content {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding: 6rem 4rem 23rem;
+	}
+
+	.project-section__nav {
+		width: 100%;
+		max-width: 25.75rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	.project-section__sample {
+		margin: -21rem 0 0;
+		grid-template-columns: auto;
+		grid-template-rows: repeat(16, auto);
+		grid-template-areas:
+			'x x a a y y '
+			'b b a a c c '
+			'b b a a c c '
+			'b b a a c c '
+			'b b a a c c '
+			'b b a a c c '
+			'b b a a c c '
+			'b b z z c c '
+			'd d z z f f '
+			'd d e e f f '
+			'd d e e f f '
+			'd d e e f f '
+			'd d e e f f '
+			'd d e e f f '
+			'd d e e f f '
+			'm m e e n n ';
+	}
+	.box1 {
+		grid-area: a;
+	}
+
+	.box2 {
+		grid-area: b;
+	}
+
+	.box3 {
+		grid-area: c;
+	}
+
+	.box4 {
+		grid-area: d;
+	}
+
+	.box5 {
+		grid-area: e;
+	}
+
+	.box6 {
+		grid-area: f;
+	}
+
+   .cartoon-pic {
+		display: block;
+		grid-area: z;
+		width: 100%;
+		max-width: 13rem;
+		margin: auto;
+		transition: 1s;
+	}
+   .cartoon-pic:hover {
+		transform: rotateZ(360deg);
+	}
+
+	.cartoon-pic img {
+		width: 100%;
+	}
+}

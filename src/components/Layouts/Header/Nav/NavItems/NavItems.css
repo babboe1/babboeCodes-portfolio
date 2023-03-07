@@ -1,0 +1,40 @@
+.nav-bar__list {
+   display: none;
+   column-gap: 1.2rem;
+}
+
+.nav-bar__list--after {
+   display: none;
+   height: 10px;
+   width: 2.9rem;
+   position: relative;
+   border-bottom: 1px solid white;
+   border-radius: 5px;
+   top: 0.6rem;
+   left: -16rem;
+   transition: 0.5s;
+}
+
+.magic-line-left1 {
+   width: 3rem;
+   left: -16rem;
+}
+
+.magic-line-left2 {
+   width: 3rem;
+   left: -10.2rem;
+}
+
+.magic-line-left3 {
+   width: 3rem;
+   left: -4.2rem;
+}
+
+@media screen and (min-width: 768px) {
+   .nav-bar__list {
+		display: flex;
+	}
+   .nav-bar__list--after {
+   display: block;
+   }
+}

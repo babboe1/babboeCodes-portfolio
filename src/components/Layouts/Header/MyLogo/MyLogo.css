@@ -1,0 +1,21 @@
+.image-logo {
+   overflow: hidden;
+   width: 100%;
+}
+
+#header .image-logo__image {
+   max-width: 180px;
+   width: 100%;
+}
+
+.image-logo__image {
+   max-width: 300px;
+   width: 100%;
+}
+
+@media screen and (min-width: 768px) { 
+   .footer-content .image-logo {
+      width: auto;
+      max-width: 220px;
+   }
+}

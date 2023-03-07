@@ -1,0 +1,8 @@
+#nav-bar {
+	align-items: center;
+	/* border: 1px solid blue; */
+	display: flex;
+	justify-content: flex-end;
+	max-width: 20rem;
+	width: 100%;
+}

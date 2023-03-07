@@ -1,0 +1,47 @@
+.main-section--title {
+	background: #edf7fa;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2rem 0 0;
+	border-radius: 15px;
+}
+
+.main-section--project-content {
+   margin: 0 0 2rem;
+}
+
+.home-text {
+	font-size: 14px;
+	color: #21243d;
+	font-weight: 700;
+}
+
+.main-section--title__main {
+	background: #121fcf;
+	background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 2rem;
+	text-align: left;
+	width: 100%;
+	max-width: 25rem;
+}
+
+h1.section-h1 {
+	width: 100%;
+	padding: 2rem;
+}
+
+.main-section--title__sub {
+	font-size: 12px;
+	font-weight: 300;
+	color: #8695a4;
+	display: block;
+	padding: 0 0 0.5rem;
+}
+@media screen and (min-width: 1024px) {
+   .main-section--title__main {
+      max-width: 25rem;
+   }
+}

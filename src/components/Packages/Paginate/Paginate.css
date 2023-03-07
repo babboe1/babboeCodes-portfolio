@@ -1,0 +1,64 @@
+.pagination {
+   width: 100%;
+   display: flex;
+   max-width: 800px;
+   justify-content: space-between;
+   padding: 1rem;
+   margin: 0 auto;
+   zoom: 0.5;
+}
+
+.page-item {
+   box-shadow: inset 0px 1px 0px 0px #dcecfb;
+   background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+   background-color: #bddbfa;
+   border-radius: 6px;
+   border: 1px solid #84bbf3;
+   display: inline-block;
+   cursor: pointer;
+   color: purple;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: bold;
+   text-decoration: none;
+   text-shadow: 0px 1px 0px #528ecc;
+}
+.page-item:hover {
+   background: linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+   background-color: #80b5ea;
+}
+.page-item:active {
+   position: relative;
+   top: 1px;
+}
+
+.page-link,
+.next,
+.prev {
+   display: block;
+   padding: 10px 24px;
+}
+
+.active-page {
+   background: linear-gradient(to bottom, #fabeea 5%, #e87fbb 100%);
+   background-color: #fabeea;
+   border: 1px solid #f2858a;
+   color: #ffffff;
+   font-size: 15px;
+   text-shadow: 0px 1px 0px #cc5454;
+}
+.active-page:hover {
+   background: linear-gradient(to bottom, #e87fbb 5%, #fabeea 100%);
+   background-color: #e87fbb;
+}
+
+@media (min-width: 480px) {
+   .pagination {
+      zoom: .6;
+   }
+}
+@media (min-width: 768px) {
+   .pagination {
+      zoom: 1;
+   }
+}

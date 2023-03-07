@@ -1,0 +1,13 @@
+.Modal {
+	position: absolute;
+	z-index: 10;
+	background: rgb(0 0 0 / 90%);
+	width: 100%;
+	top: 0;
+	right: 0;
+	padding: 2rem 1rem 0;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	border-radius: 0 0 10px 10px;
+	overflow-x: hidden;
+   transition: 1s;
+}
