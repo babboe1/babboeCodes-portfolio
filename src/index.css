@@ -4,6 +4,7 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   font-family: 'Montserrat Alternates', sans-serif;
 }
 
 /* GENERAL STYLES */
@@ -15,7 +16,6 @@ html {
 
 body {
    transition: 1s;
-   font-family: 'Montserrat Alternates', sans-serif;
    color: #21243d;
    margin: 0 auto;
    max-width: 1440px;
