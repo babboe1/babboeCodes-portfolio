@@ -36,6 +36,59 @@
 	border: 1px solid #6ed9f9;
 }
 
+.message-section--form {
+	column-gap: 1.5rem;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+}
+
+#email-id {
+	background-color: rgb(255, 255, 255, 0);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	color: #fff;
+	height: 3.5rem;
+	max-width: 298px;
+	padding: 1rem;
+	width: 100%;
+}
+
+#email-id::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+}
+
+/* style for input submit */
+#submitBtn {
+	background-color: rgb(255, 255, 255, 0);
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	max-width: 154px;
+	width: 100%;
+	cursor: pointer;
+   transition: 1s;
+   padding: 1rem 0;
+}
+
+#submitBtn:hover {
+	background-color: rgb(84, 136, 84);
+}
+
+#submitBtn.false {
+	background-color: rgba(121, 114, 114);
+	cursor: not-allowed;
+   color: #fff;
+   content:'fill the form';
+   /* opacity: 0.65; */
+}
+
+#submitBtn.false:hover {
+   color: red;
+}
+
 @media screen and (min-width: 1024px) {
    .contact-form-action {
       width: 100%;
