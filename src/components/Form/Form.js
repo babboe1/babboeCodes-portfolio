@@ -4,10 +4,21 @@ import './Form.css'
 
 const Form = (props) => {
    return (
-      <form className='contact-form-action'>
-         { props.children }
+      <form
+         ref={props.formRef}
+         className={props.formClassProp}
+         action="https://formsubmit.co/babboecodes@gmail.com"
+         method="POST"
+      >
+         {props.children}
          <div className="contact-button">
-            <Button classProp="contact-button-link">
+            <Button
+               refs={props.refBtn}
+               id={props.id}
+               classProp={props.classProp}
+               disable={ props.disable }
+               click={props.click}
+            >
                {props.submitText}
             </Button>
          </div>
