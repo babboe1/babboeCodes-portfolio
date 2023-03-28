@@ -4,7 +4,7 @@ import SectionTitle from '../../../Utility/SectionTitle/SectionTitle';
 import phoneIcon from '../../../../assets/icons/contact.svg';
 import Form from '../../../Form/Form';
 import TextInput from '../../../form-control/text-input/TextInput';
-import './Contact.css'
+import './Contact.css';
 import Location from './Location/Location';
 
 const Contact = () => {
@@ -22,20 +22,35 @@ const Contact = () => {
                </p>
             </div>
 
-            <Form submitText="Let's talk👋">
-               <TextInput id='full-name' type="text" title="full-name" placeholder="Your Name" />
-               <TextInput id="email-tag" type="email" placeholder="username@example.com" />
+            <Form
+               submitText="Let's talk👋"
+               formClassProp="contact-form-action"
+               classProp="contact-button-link"
+            >
+               <TextInput
+                  id="full-name"
+                  type="text"
+                  title="full-name"
+                  placeholder="Your Name"
+                  required
+               />
+               <TextInput
+                  id="email-tag"
+                  type="email"
+                  placeholder="username@example.com"
+                  required
+               />
                <textarea
-						name="user-message"
-						id="user-message"
-						cols="30"
-						rows="10"
-						placeholder="Enter your message"
-						required
-					/>
+                  name="user-message"
+                  id="user-message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter your message"
+                  required
+               />
             </Form>
          </section>
-            <Location />
+         <Location />
          <MessageSection />
       </>
    );
