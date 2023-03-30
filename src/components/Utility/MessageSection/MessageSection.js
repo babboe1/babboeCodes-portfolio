@@ -2,7 +2,7 @@ import React, { useRef, useContext } from 'react';
 import FormContext from '../../Store/FormContext/FormContext';
 import cartoon from '../../../assets/mobile/cartoon-pic2.png';
 import './messageSection.css';
-import Button from '../../Button/Button';
+import Form from '../../Form/Form';
 
 const MessageSection = () => {
    const submitBtn = useRef(null);
@@ -18,11 +18,15 @@ const MessageSection = () => {
                </label>
             </h3>
             {/* <!-- create form --> */}
-            <form
-               ref={formRef}
-               className="message-section--form"
-               action="https://formsubmit.co/babboecodes@gmail.com"
-               method="POST"
+            <Form
+               formRef={formRef}
+               formClassProp="message-section--form"
+               refBtn={submitBtn}
+               id="submitBtn"
+               classProp={`contact-button-link ${validate}`}
+               disable={!validate ? true : false}
+               click={formClickHandler}
+               submitText="Be my friend"
             >
                <input
                   ref={msgInput}
@@ -34,17 +38,7 @@ const MessageSection = () => {
                   onChange={(e) => onChangeHandler(e, submitBtn.current)}
                   required
                />
-               {/* <!-- submit button --> */}
-               <Button
-                  refs={submitBtn}
-                  id="submitBtn"
-                  classProp={`${validate}`}
-                  disable={!validate ? true : false}
-                  click={formClickHandler}
-               >
-                  Be my friend
-               </Button>
-            </form>
+            </Form>
          </div>
          <div className="cartoon-pic2">
             <img src={cartoon} alt="cartoon" />
