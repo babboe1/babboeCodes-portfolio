@@ -39,60 +39,6 @@ label {
 	cursor: pointer;
 }
 
-.message-section--form {
-	column-gap: 1.5rem;
-	display: flex;
-	justify-content: center;
-	padding: 1rem;
-}
-
-#email-id {
-	background-color: rgb(255, 255, 255, 0);
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 5px;
-	color: #fff;
-	height: 3.5rem;
-	max-width: 298px;
-	padding: 1rem;
-	width: 100%;
-}
-
-#email-id::placeholder {
-	color: rgba(255, 255, 255, 0.5);
-	font-size: 16px;
-}
-
-/* style for input submit */
-#submitBtn {
-	background-color: rgb(255, 255, 255, 0);
-	border: 2px solid #ffffff;
-	border-radius: 5px;
-	color: #fff;
-	font-size: 18px;
-	max-width: 154px;
-	width: 100%;
-	cursor: pointer;
-   transition: 1s;
-}
-
-#submitBtn:hover {
-	background-color: rgb(84, 136, 84);
-   font-weight: bold;
-}
-
-#submitBtn.false {
-	background-color: rgba(121, 114, 114);
-	cursor: not-allowed;
-   color: #fff;
-   content:'fill the form';
-   /* opacity: 0.65; */
-}
-
-#submitBtn.false:hover {
-   color: red;
-   font-weight: bold;
-}
-
 .cartoon-pic2 {
 	display: none;
 	width: 100%;
