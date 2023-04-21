@@ -2,6 +2,7 @@ import React, { useRef, useContext } from 'react';
 import FormContext from '../../Store/FormContext/FormContext';
 import cartoon from '../../../assets/mobile/cartoon-pic2.png';
 import './messageSection.css';
+import Button from '../../Button/Button';
 
 const MessageSection = () => {
    const submitBtn = useRef(null);
@@ -34,15 +35,15 @@ const MessageSection = () => {
                   required
                />
                {/* <!-- submit button --> */}
-               <button
-                  ref={submitBtn}
+               <Button
+                  refs={submitBtn}
                   id="submitBtn"
-                  className={`${validate}`}
-                  disabled={!validate ? true : false}
-                  onClick={formClickHandler}
+                  classProp={`${validate}`}
+                  disable={!validate ? true : false}
+                  click={formClickHandler}
                >
                   Be my friend
-               </button>
+               </Button>
             </form>
          </div>
          <div className="cartoon-pic2">
